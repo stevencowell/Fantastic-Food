@@ -12,7 +12,7 @@
   const localSet = (key, value) => { try { localStorage.setItem(key, value); return true; } catch { return false; } };
   const localRemove = key => { try { localStorage.removeItem(key); return true; } catch { return false; } };
 
-  const emptyStage = () => ({ response: '', caption: '', ready: false, importedFrom: [] });
+  const emptyStage = () => ({ response: '', caption: '', ready: false, importedFrom: [], importedValues: {} });
   const blankState = () => ({
     schema: model.schema,
     version: model.version,
@@ -34,7 +34,10 @@
         response: String(saved.response || ''),
         caption: String(saved.caption || ''),
         ready: Boolean(saved.ready),
-        importedFrom: Array.isArray(saved.importedFrom) ? saved.importedFrom.map(String) : []
+        importedFrom: Array.isArray(saved.importedFrom) ? saved.importedFrom.map(String) : [],
+        importedValues: saved.importedValues && typeof saved.importedValues === 'object'
+          ? Object.fromEntries(Object.entries(saved.importedValues).map(([key, value]) => [String(key), String(value)]))
+          : {}
       };
     });
     return clean;
@@ -52,18 +55,28 @@
   const importEarlierResponses = state => {
     const imported = [];
     model.stages.forEach(stage => {
-      if (state.stages[stage.id].response.trim()) return;
+      const entry = state.stages[stage.id];
       const sources = stage.importKeys
         .map(key => [key, window.ffFoundationStore?.get(key) ?? localGet(key)])
         .filter(([, value]) => String(value || '').trim());
       if (!sources.length) return;
-      const seen = new Set();
-      const combined = sources
-        .map(([, value]) => String(value).trim())
-        .filter(value => !seen.has(value) && seen.add(value));
-      state.stages[stage.id].response = combined.join('\n\n');
-      state.stages[stage.id].importedFrom = sources.map(([key]) => key);
-      imported.push({ stageId: stage.id, sourceKeys: sources.map(([key]) => key) });
+      const existingSegments = new Set(entry.response.split(/\n{2,}/).map(value => value.trim()).filter(Boolean));
+      const addedValues = [];
+      const changedKeys = [];
+      sources.forEach(([key, rawValue]) => {
+        const value = String(rawValue).trim();
+        if (entry.importedValues[key] === value) return;
+        entry.importedValues[key] = value;
+        if (!entry.importedFrom.includes(key)) entry.importedFrom.push(key);
+        changedKeys.push(key);
+        if (!existingSegments.has(value)) {
+          existingSegments.add(value);
+          addedValues.push(value);
+        }
+      });
+      if (!changedKeys.length) return;
+      if (addedValues.length) entry.response = [entry.response.trim(), ...addedValues].filter(Boolean).join('\n\n');
+      imported.push({ stageId: stage.id, sourceKeys: changedKeys, addedResponses: addedValues.length });
     });
     if (imported.length) {
       state.migration = {
@@ -78,7 +91,7 @@
   let state = readState();
   const firstRun = !state;
   if (!state) state = blankState();
-  const importedCount = firstRun ? importEarlierResponses(state) : 0;
+  const importedCount = importEarlierResponses(state);
 
   const status = document.querySelector('[data-folio-status]');
   const message = document.querySelector('[data-folio-message]');
@@ -486,8 +499,8 @@
   document.querySelector('[data-folio-print]').addEventListener('click', () => window.print());
 
   if (importedCount) {
-    saveState(`${importedCount} earlier ${importedCount === 1 ? 'response was' : 'responses were'} brought into this folio`);
-    setMessage(`Imported ${importedCount} compatible guided ${importedCount === 1 ? 'response' : 'responses'} from the earlier course build. The originals were not changed.`, 'success');
+    saveState(`New course evidence was brought into ${importedCount} folio ${importedCount === 1 ? 'stage' : 'stages'}`);
+    setMessage(`Added new course evidence to ${importedCount} folio ${importedCount === 1 ? 'stage' : 'stages'}. Existing folio writing and the original activity responses were not changed.`, 'success');
   } else if (firstRun) {
     saveState('New folio ready');
   }

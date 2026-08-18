@@ -17,7 +17,7 @@
   },
   "content_tree": {
     "digest_method": "sorted forward-slash relative path, tab, lowercase file SHA-256, LF after each row; integration manifest, integration handoff and .git excluded",
-    "digest": "sha256:9b12e29fd98d20782129cd616b2bbfea67ff57a7a4a681b0c3890c702920cb18",
+    "digest": "sha256:47eade71bcac9ac8411c00b7fe932785c919bd0f11ad45310cacdd726e84f857",
     "files": 110
   },
   "accepted_inputs": [
@@ -31,7 +31,7 @@
   ],
   "integrated_systems": {
     "modules": {"count":5,"sections":15,"knowledge_checks":15,"mcqs":150,"written_responses":15,"current_outcomes_visible":true,"precise_help_targets":15,"model_answers_rendered":0},
-    "activities": {"evidence_routes":10,"folio_import":"all non-empty evidence fields are combined without deleting source keys"},
+    "activities": {"evidence_routes":10,"folio_import":"new or revised non-empty evidence is merged on every folio visit without overwriting existing folio writing or deleting source keys"},
     "busy_work": {"routes":20,"tree_digest":"sha256:f4b5bd8c4c0f5d2027237172ebc74c77f23327bae236f2d2affababcd7db1740","files":23,"mechanics":12,"completion_invalidation":true},
     "visuals": {"audited_svg_assets":15,"responsive_open_larger_route":"visual.html?section=<section-id>","artwork_hashes_preserved":true,"accepted_alt_caption_pairs":15,"accepted_long_descriptions":15,"module_print_loading":"eager"},
     "videos": {"section_cards":15,"privacy_enhanced_embeds":true,"fallback_links":15},
