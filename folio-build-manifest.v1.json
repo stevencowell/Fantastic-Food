@@ -1,0 +1,130 @@
+{
+  "manifestVersion": "1.1.0",
+  "buildId": "fantastic-food-folio-v1-2026-08-18",
+  "course": {
+    "title": "Fantastic Food",
+    "cohort": "Year 7, Stage 4 Technology Mandatory - Food Technologies",
+    "duration": "10 weeks"
+  },
+  "release": {
+    "state": "Local-only",
+    "candidate": "outputs/fantastic-food-foundation-v7-assessment",
+    "published": false
+  },
+  "inputs": [
+    {
+      "id": "SOURCE-CONTRACT",
+      "path": "work/fantastic-food-site/SOURCE-CONTRACT.md",
+      "sha256": "c228cb837ab0f5e880b31d930e44d6a7120ecec5e775792375e33317200c4e13"
+    },
+    {
+      "id": "THEORY-QUESTION-MANIFEST",
+      "path": "work/fantastic-food-staging/theory/theory-question-manifest.json",
+      "sha256": "8c4d95ff91e5cfb8a6b217d4cdf790a19f2b9c947984ea3b54c29cca287de8b6"
+    },
+    {
+      "id": "FOUNDATION-V5-VIDEOS",
+      "path": "outputs/fantastic-food-foundation-v5-videos",
+      "treeSha256": "d0a30a617f8c4ec648613eceb1526321d2440297cbfadb5265c4102b13fe4944"
+    }
+  ],
+  "scopeBoundary": {
+    "folioType": "Course learning-evidence and planning folio supporting the current Task 2 formal notification; not itself the submitted website or PowerPoint",
+    "formalAssessmentLink": "assessment/task-02-folio.html",
+    "excludedFromStudentFolio": [
+      "Student names, emails, grades, submissions and student-copy links"
+    ]
+  },
+  "benchmarkReview": [
+    {
+      "route": "https://stevencowell.github.io/Year-8-The-Riv-Burger/folio.html",
+      "used": "Device-local notice, backup and print controls, module-return links",
+      "notCopied": "Thirty-response evidence dump"
+    },
+    {
+      "route": "https://stevencowell.github.io/Year-7-8-Lunch-Is-Packed/folio.html",
+      "used": "Progress summary and clear evidence labels",
+      "notCopied": "Assessment-specific textile task content"
+    },
+    {
+      "route": "https://stevencowell.github.io/desk-tidy/desk-tidy-folio.html",
+      "used": "Evidence-card model, photo evidence, honest completion and backup boundary",
+      "notCopied": "Timber project brief, dimensions, materials and procedures"
+    }
+  ],
+  "briefToFolioMap": {
+    "status": "Source-backed learning-evidence and planning map linked to the current Task 2 Fantastic Food Website Folio notification",
+    "stages": [
+      { "id": "kitchen-ready", "module": 1, "focus": "Kitchen readiness, hygiene and hazard response", "sources": ["PROG-2024", "BOOK-2023-STUDENT"] },
+      { "id": "recipe-measuring", "module": 2, "focus": "Recipe reading and accurate measuring", "sources": ["PROG-2024", "REC-SCONES", "REC-TWISTS"] },
+      { "id": "nutrition-connections", "module": 2, "focus": "Nutrient roles, fibre, water and variety", "sources": ["PROG-2024", "BOOK-2023-STUDENT"] },
+      { "id": "workflow-plan", "module": 3, "focus": "Dependencies, sequence, checks and clean-up", "sources": ["PROG-2024", "BOOK-2023-STUDENT"] },
+      { "id": "food-solution-criteria", "module": 4, "focus": "Adolescent user, purpose and testable criteria", "sources": ["PROG-2024", "BOOK-2023-STUDENT"] },
+      { "id": "organisation-evidence", "module": 4, "focus": "Food-order checking and practical organisation", "sources": ["PROG-2024", "BOOK-2023-STUDENT"] },
+      { "id": "practical-reflection", "module": 5, "focus": "Carbonara workflow evidence and practical improvement", "sources": ["PROG-2024", "REC-CARBONARA"] },
+      { "id": "communication-evaluation", "module": 5, "focus": "Audience, page planning, navigation, usability evidence and improvement", "sources": ["PROG-2024", "BOOK-2023-STUDENT"] }
+    ]
+  },
+  "visualSystem": {
+    "compactPathways": 8,
+    "detailedSourceBoundDiagrams": 8,
+    "openLargerLinks": 8,
+    "photoSlots": 8,
+    "photoTypes": ["image/jpeg", "image/png", "image/webp"],
+    "maximumPhotoBytes": 8388608,
+    "privacyPromptOnEverySlot": true
+  },
+  "storage": {
+    "textKey": "fantasticfood:folio:learning-evidence:v1",
+    "photoDatabase": "fantasticfood-folio-evidence-v1",
+    "photoStore": "photos",
+    "backupType": "fantastic-food-folio-backup",
+    "backupFormat": "JSON including text state and base64-encoded folio images",
+    "migration": "On first use only, imports the first compatible saved guided response for each stage without altering old keys",
+    "resetScope": "Only this folio text key and this folio photo database; module and activity evidence are not removed"
+  },
+  "qa": {
+    "desktop": {
+      "viewportCssPixels": "1600 x 900",
+      "cards": 8,
+      "visuals": 8,
+      "textareas": 16,
+      "horizontalOverflow": false,
+      "visualInspection": "PASS"
+    },
+    "mobile": {
+      "viewportCssPixels": "390 x 844",
+      "cardsSingleColumn": true,
+      "compactVisualsSingleColumn": true,
+      "horizontalOverflow": false,
+      "visualInspection": "PASS"
+    },
+    "function": {
+      "autosaveAndReload": "PASS",
+      "honestEvidenceThreshold": "PASS",
+      "readyStateInvalidatesAfterShortenedEvidence": "PASS",
+      "photoAddPreviewAndReload": "PASS",
+      "backupWithPhoto": "PASS",
+      "invalidBackupRejectedWithoutReplacement": "PASS",
+      "validBackupReachedConfirmationAndWasCancelled": "PASS",
+      "navigationRoutes": "10 of 10 HTTP 200",
+      "visualAssets": "8 of 8 HTTP 200",
+      "javascriptSyntax": "PASS"
+    },
+    "print": {
+      "format": "A4",
+      "pages": 10,
+      "stagePages": "One page per evidence stage",
+      "renderInspection": "All 10 pages inspected; zero clipping, overlap or broken transitions",
+      "qaPdfSha256": "1c55af908de9bcd10ec90a4fc53ed93e6250177c48bac5deee79de555c9b31b2"
+    },
+    "safetyException": "Actual photo deletion and full folio reset were not completed during QA because they are destructive local-data actions. Confirmation and owned-data code paths were inspected; the rendered controls are present."
+  },
+  "outputs": [
+    { "path": "folio.html", "sha256": "31d35f573734f9d7f094258a7dc397e5b486c5001a47e2f6d083533d6a269eb1" },
+    { "path": "assets/folio-data.js", "sha256": "d3b93ff4e555a1be71c864284787358c51f98f7445555b0b759cedc648a71a5a" },
+    { "path": "assets/folio.js", "sha256": "d8e8cb00b94e9eaf85eccb09de11fab0f283093eeab61f98131e77f098b55a6a" },
+    { "path": "assets/folio.css", "sha256": "b8bef0c0db9d9a71963abb12a67623362b2d3f4b2acd9d7d48a22481d24d9187" }
+  ],
+  "verdict": "PASS"
+}

@@ -1,0 +1,154 @@
+{
+  "schema_version": "website-builder-network/v1",
+  "build_id": "fantastic-food-2026-08-18",
+  "task_family": "TASK 30 Fantastic Food teaching program",
+  "course": {
+    "title": "Fantastic Food",
+    "cohort": "Year 7 / Stage 4",
+    "scope": "Ten-week Technology 7–8 Food and agricultural practices course; 30 × 60-minute periods"
+  },
+  "publication_boundary": "Local-only teaching-program artifact. Publication is authorised only through the separate complete-site release gate requested by Steve.",
+  "publication_authority": "Not authorised",
+  "source_contract": {
+    "artifact_id": "fantastic-food-source-contract",
+    "version": "0.2-draft",
+    "digest": "sha256:c228cb837ab0f5e880b31d930e44d6a7120ecec5e775792375e33317200c4e13"
+  },
+  "artifact": {
+    "id": "fantastic-food-teacher-program",
+    "type": "teacher-program-manifest",
+    "version": "1.0",
+    "digest": "sha256:1d591055225a43da9b9b40acbe3ad446402d73fa554097f6fabaa8b09e54e3f3",
+    "owner_skill": "build-course-program via 14-teaching-program",
+    "owner_task": "TASK 30 Fantastic Food teaching program",
+    "owned_paths": [
+      "C:\\Users\\scowell1\\Documents\\Codex\\2026-08-18\\u\\outputs\\fantastic-food-foundation-v7-assessment\\resources\\teacher",
+      "C:\\Users\\scowell1\\Documents\\Codex\\2026-08-18\\u\\outputs\\fantastic-food-foundation-v7-assessment\\TEACHING-PROGRAM-INTEGRATION-REQUEST.md"
+    ],
+    "prohibited_edits": [
+      "Student module content",
+      "Assessment notices and schedule",
+      "Folio evidence content",
+      "Video and presentation libraries",
+      "Git history and publication state"
+    ],
+    "operational_status": "Complete",
+    "gate_verdict": "PENDING",
+    "release_state": "Local-only"
+  },
+  "dependencies": [
+    {
+      "artifact_id": "fantastic-food-assessment-manifest",
+      "version": "1.0",
+      "digest": "sha256:3822f4588673183307e6687dfb06e18b0d23f07c16d694d7d3e5927bdae18d23"
+    },
+    {
+      "artifact_id": "fantastic-food-folio-manifest",
+      "version": "1.0",
+      "digest": "sha256:671f3b03cc238de23fa5df0f9b5cacd89aae2b4cdc9bfedf7be10912c3dcabf1"
+    },
+    {
+      "artifact_id": "fantastic-food-youtube-manifest",
+      "version": "1.0",
+      "digest": "sha256:554ac4a3820fe407936ba7d0df22f21c143e269860e15ec455b2dc87918a95dd"
+    },
+    {
+      "artifact_id": "fantastic-food-theory-question-manifest",
+      "version": "1.1.0-draft",
+      "digest": "sha256:8c4d95ff91e5cfb8a6b217d4cdf790a19f2b9c947984ea3b54c29cca287de8b6"
+    }
+  ],
+  "outputs": [
+    {
+      "path_or_route": "C:\\Users\\scowell1\\Documents\\Codex\\2026-08-18\\u\\outputs\\fantastic-food-foundation-v7-assessment\\resources\\teacher\\Fantastic-Food-30-Period-Teaching-Program-v1.0-Compact-10pt.docx",
+      "digest": "sha256:27db653d5816e009b868aa1bd7799b06578e9025854f374ebcc103f0f891ebe4",
+      "purpose": "Editable 30-period teaching program and scope and sequence"
+    },
+    {
+      "path_or_route": "C:\\Users\\scowell1\\Documents\\Codex\\2026-08-18\\u\\outputs\\fantastic-food-foundation-v7-assessment\\resources\\teacher\\Fantastic-Food-30-Period-Teaching-Program-v1.0-Compact-10pt.pdf",
+      "digest": "sha256:628abc016aa397d652b4d4effaf6458d356abf4db2a032df1c2cd25790eb2e95",
+      "purpose": "Rendered A4 landscape teaching program"
+    },
+    {
+      "path_or_route": "C:\\Users\\scowell1\\Documents\\Codex\\2026-08-18\\u\\outputs\\fantastic-food-foundation-v7-assessment\\resources\\teacher\\Fantastic-Food-30-Period-Teaching-Program-v1.0-Alignment.json",
+      "digest": "sha256:7e17bef3544be44aa22ec27780722f1cd79da6737a3d205c529b14c6fc9cc28d",
+      "purpose": "Schema 1.1 course/site alignment manifest"
+    },
+    {
+      "path_or_route": "C:\\Users\\scowell1\\Documents\\Codex\\2026-08-18\\u\\outputs\\fantastic-food-foundation-v7-assessment\\resources\\teacher\\Fantastic-Food-Teaching-Program-Manifest-v1.0.json",
+      "digest": "sha256:1d591055225a43da9b9b40acbe3ad446402d73fa554097f6fabaa8b09e54e3f3",
+      "purpose": "Canonical teacher-program manifest"
+    },
+    {
+      "path_or_route": "C:\\Users\\scowell1\\Documents\\Codex\\2026-08-18\\u\\outputs\\fantastic-food-foundation-v7-assessment\\resources\\teacher\\Fantastic-Food-Teaching-Program-Site-Map-v1.0.json",
+      "digest": "sha256:f8aee1b965224730db8f545d3286e327f4984ca3270a94f6e6ca0e05aad9f909",
+      "purpose": "Program-to-site route map"
+    },
+    {
+      "path_or_route": "C:\\Users\\scowell1\\Documents\\Codex\\2026-08-18\\u\\outputs\\fantastic-food-foundation-v7-assessment\\resources\\teacher\\Fantastic-Food-Delivery-Ledger-v1.0.docx",
+      "digest": "sha256:f73601afee9154220d731124b11a812422043c35bc8b76143248e1c386f68619",
+      "purpose": "Editable 30-period delivery ledger"
+    },
+    {
+      "path_or_route": "C:\\Users\\scowell1\\Documents\\Codex\\2026-08-18\\u\\outputs\\fantastic-food-foundation-v7-assessment\\resources\\teacher\\Fantastic-Food-Teaching-Program-QA-Evidence-v1.0.json",
+      "digest": "sha256:6e3ce6ca429a51bc450c5cabb68b78186dc806f579b61632aacb5f196c07fd03",
+      "purpose": "Producer document and render evidence"
+    },
+    {
+      "path_or_route": "C:\\Users\\scowell1\\Documents\\Codex\\2026-08-18\\u\\outputs\\fantastic-food-foundation-v7-assessment\\TEACHING-PROGRAM-INTEGRATION-REQUEST.md",
+      "digest": "sha256:2faa41909fcc2f8a6edc329f40e706c23ff3e4ecbb46d631b33bcecb99dc34ac",
+      "purpose": "Controlled Teacher resources integration request"
+    }
+  ],
+  "coverage": {
+    "weeks": 10,
+    "periods": 30,
+    "period_minutes": 60,
+    "modules": 5,
+    "website_learning_sections": 15,
+    "knowledge_checks": 15,
+    "written_responses": 15,
+    "practical_periods": 12,
+    "assessment_tasks": 3,
+    "folio_stages": 8,
+    "teacher_to_confirm_items": [
+      "TBC-01 timetable grouping",
+      "TBC-02 class/practical controls",
+      "TBC-03 muffin master",
+      "TBC-04 exact semester dates and Classroom settings"
+    ]
+  },
+  "gate": {
+    "environment": "local",
+    "phase": "draft",
+    "subject_digest": "sha256:1d591055225a43da9b9b40acbe3ad446402d73fa554097f6fabaa8b09e54e3f3",
+    "reviewer_skill": "guided-course-audit",
+    "reviewer_task": "TASK 31 Independent Fantastic Food program audit",
+    "independent": true,
+    "tests": [
+      "Source-contract binding",
+      "Current NSW syllabus and outcome accuracy",
+      "30-period sequence completeness",
+      "Website route and evidence mapping",
+      "Assessment consistency",
+      "A4 landscape document usability",
+      "Teacher-to-confirm visibility"
+    ],
+    "evidence": [
+      "C:\\Users\\scowell1\\Documents\\Codex\\2026-08-18\\u\\outputs\\fantastic-food-foundation-v7-assessment\\resources\\teacher\\Fantastic-Food-Teaching-Program-QA-Evidence-v1.0.json",
+      "C:\\Users\\scowell1\\Documents\\Codex\\2026-08-18\\u\\outputs\\fantastic-food-foundation-v7-assessment\\resources\\teacher\\Fantastic-Food-30-Period-Teaching-Program-v1.0-Alignment.json",
+      "C:\\Users\\scowell1\\Documents\\Codex\\2026-08-18\\u\\outputs\\fantastic-food-foundation-v7-assessment\\resources\\teacher\\Fantastic-Food-30-Period-Teaching-Program-v1.0-Compact-10pt.pdf",
+      "C:\\Users\\scowell1\\Documents\\Codex\\2026-08-18\\u\\outputs\\fantastic-food-foundation-v7-assessment\\resources\\teacher\\Fantastic-Food-Delivery-Ledger-v1.0.docx"
+    ],
+    "decision": "PENDING",
+    "findings": [],
+    "rework_owner": null,
+    "smallest_action": "Run an independent guided-course-audit on the exact manifest digest.",
+    "invalidates": [
+      "Teacher-resources integration",
+      "Complete-site release"
+    ]
+  },
+  "exceptions": [],
+  "timestamp": "2026-08-18T12:41:40.123698+00:00"
+}

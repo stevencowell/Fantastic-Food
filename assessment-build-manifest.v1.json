@@ -1,0 +1,157 @@
+{
+  "schemaVersion": "assessment-build/v1",
+  "version": "2.0.0",
+  "course": {
+    "title": "Fantastic Food",
+    "cohort": "Year 7",
+    "courseName": "Mandatory Technology",
+    "focusArea": "Food Technologies",
+    "year": 2026
+  },
+  "builtAt": "2026-08-18",
+  "release": "Local-only",
+  "verdict": "PASS",
+  "verdictBoundary": "The local 2026 assessment schedule, three formal Fantastic Food notifications, shared navigation integration, responsive layouts and A4 print outputs match the recorded handbook, task sources and Technology Faculty approval. This verdict does not represent publication.",
+  "predecessor": {
+    "path": "../fantastic-food-foundation-v6-folio",
+    "treeSha256": "cbd19bcc529fb3223735fb0f4700e42e1b9a18322988f921cdffbb608f3b8b80"
+  },
+  "sources": [
+    {
+      "id": "WWHS-Y7-BOOKLET-2026",
+      "title": "Year 7 Assessment Booklet 2026",
+      "url": "https://drive.google.com/file/d/11ROarWd4Rx6Zq2Zq2andgqITG2ur8Qx0/view",
+      "pages": 21,
+      "relevantPdfPage": 16,
+      "sha256": "e8fbea3ffb46377fe298c9bb12d0f741a2b5020043ce7204ffe6fd009bd77185",
+      "authority": "Current WWHS cohort handbook"
+    },
+    {
+      "id": "FF-SOURCE-CONTRACT",
+      "path": "../../work/fantastic-food-site/SOURCE-CONTRACT.md",
+      "sha256": "c228cb837ab0f5e880b31d930e44d6a7120ecec5e775792375e33317200c4e13",
+      "authority": "Local conflict and privacy contract"
+    },
+    {
+      "id": "FF-ASSESSMENT-NOTICE",
+      "title": "Assessment Notice",
+      "url": "https://docs.google.com/document/d/1A_QGMuULErV_ObZDXaJHNVpPPs9RJNjsOAnsLGe9lKw/edit",
+      "verified": "2026-08-18",
+      "authority": "Authorised Fantastic Food website task, evidence and component marks"
+    },
+    {
+      "id": "FF-STUDENT-BOOKLET",
+      "title": "2023 Fantastic Foods Student Booklet",
+      "url": "https://docs.google.com/document/d/1JuT_NdrZHOs9mB5GYY5PnZ5NiBX50Kpa6wCTAawqYT0/edit",
+      "verified": "2026-08-18",
+      "authority": "Authorised lunchbox planning and course-task evidence source"
+    },
+    {
+      "id": "FF-PRACTICAL-MARKING",
+      "title": "Practical marking .docx",
+      "url": "https://docs.google.com/document/d/1ZSvB_PnR6uMpe_n7gtmyc_78JuOgOCe5/edit",
+      "verified": "2026-08-18",
+      "authority": "Authorised Task 1 raw marking criteria"
+    },
+    {
+      "id": "FACULTY-APPROVAL-2026-08-18",
+      "title": "Technology Faculty task approval",
+      "verified": "2026-08-18",
+      "authority": "Steve's approval in this task",
+      "facts": ["Issue at start of term", "Task 1 Healthy Lunchbox Project and Practical", "Task 2 Fantastic Food Website Folio through Google Classroom", "Task 3 15-mark 45-minute individual in-class Design Knowledge Task", "Technology Faculty / class teacher"]
+    },
+    {
+      "id": "NESA-TECH-7-8-2023",
+      "url": "https://curriculum.nsw.edu.au/learning-areas/tas/technology-7-8-2023/outcomes",
+      "verified": "2026-08-18",
+      "authority": "Current syllabus outcomes and 2026 implementation advice"
+    },
+    {
+      "id": "NESA-ASSESSMENT-PRINCIPLES",
+      "url": "https://curriculum.nsw.edu.au/assessment-and-reporting/assessment-principles",
+      "verified": "2026-08-18",
+      "authority": "Current assessment-design principles"
+    }
+  ],
+  "tasks": [
+    {
+      "number": 1,
+      "name": "Project & Practical Task",
+      "specificTitle": "Healthy Lunchbox Project",
+      "issue": "Start of term",
+      "due": "End of Semester 1 and 2",
+      "weighting": 60,
+      "rawMarks": 100,
+      "outcomes": ["TE4-DES-01", "TE4-PPM-01", "TE4-SAF-01", "TE4-MSC-01"],
+      "completion": "Scheduled in-class practical lesson; planning evidence handed to class teacher",
+      "noticeStatus": "Formal assessment - current notification"
+    },
+    {
+      "number": 2,
+      "name": "Folio",
+      "specificTitle": "Fantastic Food Website Folio",
+      "issue": "Start of term",
+      "due": "End of Semester 1 and 2",
+      "weighting": 25,
+      "marks": 25,
+      "outcomes": ["TE4-DES-01", "TE4-PPM-01", "TE4-PDP-01", "TE4-SDP-01", "TE4-DIG-01", "TE4-DIG-02 where appropriate"],
+      "submission": "Google Sites link or PowerPoint file through Google Classroom",
+      "noticeStatus": "Formal assessment - current notification"
+    },
+    {
+      "number": 3,
+      "name": "Design Knowledge Task",
+      "specificTitle": "Fantastic Food Knowledge and Application",
+      "issue": "Start of term",
+      "due": "End of Semester 1 and 2",
+      "weighting": 15,
+      "marks": 15,
+      "durationMinutes": 45,
+      "outcomes": ["TE4-SDP-01", "TE4-PDP-01", "TE4-MSC-01", "TE4-DIG-01 and/or TE4-DIG-02"],
+      "completion": "Individual in-class task",
+      "noticeStatus": "Formal assessment - current notification"
+    }
+  ],
+  "gates": {
+    "scheduleAuthority": "PASS",
+    "currentSyllabusOutcomes": "PASS",
+    "authorisedTaskMapping": "PASS",
+    "localRoutesAndLinks": "PASS",
+    "desktopAndExact390Render": "PASS",
+    "keyboardFocus": "PASS",
+    "printA4": "PASS",
+    "issueReadyNotifications": "PASS",
+    "sharedNavigationIntegration": "PASS"
+  },
+  "qa": {
+    "httpRoutesChecked": 5,
+    "htmlPagesScanned": 26,
+    "brokenLocalLinks": 0,
+    "assessmentRoutesRenderedAtWidths": [1600, 390],
+    "horizontalOverflowFailures": 0,
+    "consoleWarningsOrExceptions": 0,
+    "a4NoticePdfs": 3,
+    "a4PagesPerNotice": 1,
+    "browserNote": "The in-app browser verified the laptop and exact-390 CSS px layouts, navigation, links and console state. Microsoft Edge headless printing produced three one-page A4 PDFs, which were rendered and visually inspected."
+  },
+  "ownedFiles": [
+    {"path": "assessment.html", "sha256": "85c1e899f5a1a7362d6fb7c2b70ed98185459d5701ffb30c7141868015028810"},
+    {"path": "assessment/task-01-project-practical.html", "sha256": "d110f689f873c38da735dba76c95f667acabcc6d10d6d4033cbfc4187bff494d"},
+    {"path": "assessment/task-02-folio.html", "sha256": "0b181b0f077c8d3f21bad5411c8a44eda80998a31db911d7d6bb27ea65751d7c"},
+    {"path": "assessment/task-03-design-knowledge.html", "sha256": "073827115f86c62782251d198209769e145d794b8e6fdfe01aea267007000150"},
+    {"path": "assets/assessment.js", "sha256": "8678aacb21c078177c413a01670fc018f03c0e9d545d8c7de3353142e52c6614"},
+    {"path": "assets/site.css", "sha256": "3afb52efb9213672e613f65226fb3e0897a418194bfd7ce3ce2a43d489dc7462"},
+    {"path": "assets/site.js", "sha256": "a29d915f7cbc7f10a8d5aff622809bd86c96c2d37bbbc1e04c0b1ed1b8691ddd"},
+    {"path": "resources.html", "sha256": "cc018d35a1be818c8f6ad9f0ebf8b97da8d0d17111754611cf72a43eca3fd39b"},
+    {"path": "folio.html", "sha256": "31d35f573734f9d7f094258a7dc397e5b486c5001a47e2f6d083533d6a269eb1"},
+    {"path": "teacher-resources.html", "sha256": "07c924406e17955158427d0778476689b25ac0655373588dfbb2d0d82574c468"},
+    {"path": "ASSESSMENT-SOURCE-REGISTER.md", "sha256": "9972850bfa2805e88185287c693afb11c6589db67dca8cd3fe7e12c06e2bc706"},
+    {"path": "ASSESSMENT-BUILD-REPORT.md", "sha256": "c067a5f2cf671ac00394a0b6416f24da20af20575af161ab68cef9c1181c1fb3"},
+    {"path": "ASSESSMENT-NAVIGATION-INTEGRATION-REQUEST.md", "sha256": "d3161beb8188cc3f7a5f10b46500aa623c462d38079070596f544ba7f5b790aa"},
+    {"path": "BUILD-NOTE.md", "sha256": "bffefe8ccbd56be6980edcfafaed121432058a9c6776a1c7f0cfca903b444944"},
+    {"path": "FOLIO-BUILD-REPORT.md", "sha256": "ccf4b6a16f8eee86b7688f4a849bd42905475432affd7d2718b5746a1a993654"},
+    {"path": "folio-build-manifest.v1.json", "sha256": "671f3b03cc238de23fa5df0f9b5cacd89aae2b4cdc9bfedf7be10912c3dcabf1"}
+  ],
+  "ownedFileSetSha256": "2b6bf0542f7239774fc7a38fe83c9e3f920b322fff0d789f59fdc522acbe607c",
+  "unresolved": []
+}

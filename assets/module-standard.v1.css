@@ -1,0 +1,88 @@
+:root {
+  --module-max: 1180px;
+  --module-desktop-gutter: 36px;
+  --module-mobile-gutter: 32px;
+  --module-hero-min: 295px;
+  --module-content-top: 72px;
+  --module-gap: 24px;
+  --module-card-pad: 21.6px;
+  --module-card: #fffefb;
+  --module-card-soft: #f5f7f4;
+  --module-line: #d9ddda;
+  --module-action: #315d3a;
+  --module-action-dark: #23462c;
+  --module-accent: #c44935;
+  --module-muted: #5f6d66;
+}
+body[data-module] .page-hero { min-height: var(--module-hero-min); display: grid; align-items: center; }
+body[data-module] .page-hero-inner { width: min(var(--module-max), calc(100% - var(--module-desktop-gutter))); min-height: var(--module-hero-min); padding: 0; display: grid; align-content: center; }
+body[data-module] .page-hero h1 { margin: 0 0 16px; font-size: 76.8px; line-height: 88.32px; }
+body[data-module] .page-hero p:last-child { max-width: 60ch; margin: 0; font-size: 1.15rem; }
+body[data-module] main.page { width: min(var(--module-max), calc(100% - var(--module-desktop-gutter))); margin: 0 auto; padding-top: var(--module-content-top); display: grid; gap: var(--module-gap); }
+body[data-module] .module-overview,
+body[data-module] .student-evidence,
+body[data-module] .learning-cycle,
+body[data-module] .module-completion { padding: var(--module-card-pad); border: 1px solid var(--module-line); border-radius: 18px; background: var(--module-card); box-shadow: 0 14px 38px rgba(32,54,34,.1); }
+body[data-module] .module-overview { min-height: 260px; display: grid; grid-template-columns: minmax(0,1fr) minmax(260px,360px); gap: var(--module-gap); align-items: stretch; border-left: 6px solid var(--module-action); }
+body[data-module] .module-overview-copy { display: flex; flex-direction: column; align-items: flex-start; justify-content: center; }
+body[data-module] .module-overview-copy h2 { margin: 0 0 10px; font-size: clamp(1.65rem,3vw,2.2rem); }
+body[data-module] .module-overview-copy p { max-width: 68ch; }
+body[data-module] .module-roadmap { padding: 18px; border-radius: 14px; background: var(--module-card-soft); }
+body[data-module] .module-roadmap h2 { margin-top: 0; font-size: 1.25rem; }
+body[data-module] .section-jumps { margin: 0; }
+body[data-module] .section-jumps a { background: #fff; border-left: 4px solid var(--module-action); }
+body[data-module] .student-evidence { display: grid; grid-template-columns: minmax(0,1fr) minmax(280px,420px); gap: var(--module-gap); align-items: center; border-left: 6px solid #d39b2a; }
+body[data-module] .student-evidence h2 { margin: 0 0 6px; }
+body[data-module] .student-evidence p { margin: 0; }
+body[data-module] .evidence-progress { display: grid; gap: 8px; }
+body[data-module] .evidence-progress .saved { margin: 0; }
+body[data-module] .button { color: #fff; background: var(--module-action); }
+body[data-module] .button:hover,
+body[data-module] .button:focus-visible { background: var(--module-action-dark); }
+body[data-module] .button.quiet,
+body[data-module] .button.secondary { color: var(--module-action-dark); background: #edf3ee; }
+body[data-module] [data-module-content] { display: grid; gap: var(--module-gap); }
+body[data-module] .learning-cycle { margin: 0; border-radius: 18px; }
+body[data-module] .cycle-head { max-width: 850px; margin-bottom: 18px; }
+body[data-module] .cycle-head .eyebrow { color: var(--module-accent); }
+body[data-module] .theory-copy { max-width: 80ch; }
+body[data-module] .concept-visual { background: var(--module-card-soft); border-color: var(--module-line); }
+body[data-module] .video-slot { color: var(--ink); background: #f2f5f3; border: 1px solid var(--module-line); }
+body[data-module] .video-slot h3 { color: var(--ink); }
+body[data-module] .video-slot a:not(.button) { color: var(--module-action-dark); }
+body[data-module] .video-player { position: relative; aspect-ratio: 16 / 9; margin: 14px 0; overflow: hidden; border-radius: 12px; background: #dfe7e2; }
+body[data-module] .video-player iframe { display: block; width: 100%; height: 100%; border: 0; }
+body[data-module] .video-play { width: 100%; height: 100%; border: 0; color: #fff; background: var(--module-action); font-weight: 850; cursor: pointer; }
+body[data-module] .video-gap { border-left: 5px solid #b98a27; }
+body[data-module] .checks { border-color: var(--module-line); background: #fff; }
+body[data-module] .checks > summary { color: var(--module-action-dark); }
+body[data-module] .response { background: #fff; border-color: var(--module-line); }
+body[data-module] .response textarea { background: #fff; }
+body[data-module] .module-completion { display: grid; grid-template-columns: minmax(0,1fr) auto; gap: var(--module-gap); align-items: center; border-top: 5px solid var(--module-action); }
+body[data-module] .module-completion h2 { margin: 0 0 6px; }
+body[data-module] .module-completion p { margin: 0; }
+body[data-module] .completion-actions { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 10px; }
+body[data-module] .module-sequence { grid-column: 1 / -1; display: flex; justify-content: space-between; gap: 12px; padding-top: 18px; border-top: 1px solid var(--module-line); }
+@media (max-width: 680px) {
+  body[data-module] .page-hero-inner,
+  body[data-module] main.page { width: min(var(--module-max), calc(100% - var(--module-mobile-gutter))); }
+  body[data-module] .page-hero h1 { font-size: 40px; line-height: 46px; }
+  body[data-module] main.page { padding-top: var(--module-content-top); }
+  body[data-module] .module-overview,
+  body[data-module] .student-evidence,
+  body[data-module] .module-completion { grid-template-columns: minmax(0,1fr); }
+  body[data-module] .module-overview,
+  body[data-module] .student-evidence,
+  body[data-module] .learning-cycle,
+  body[data-module] .module-completion { padding: 21px 18px; }
+  body[data-module] .completion-actions { justify-content: flex-start; }
+  body[data-module] .module-sequence { flex-direction: column; }
+}
+@media print {
+  body[data-module] .module-overview,
+  body[data-module] .student-evidence,
+  body[data-module] .learning-cycle,
+  body[data-module] .module-completion { box-shadow: none; }
+  body[data-module] .module-completion .completion-actions,
+  body[data-module] .module-sequence { display: none; }
+}

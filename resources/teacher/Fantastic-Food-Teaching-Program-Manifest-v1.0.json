@@ -1,0 +1,1040 @@
+{
+  "schema_version": "1.0",
+  "artifact_id": "fantastic-food-teacher-program",
+  "version": "1.0",
+  "build_id": "fantastic-food-2026-08-18",
+  "course": "Fantastic Food — Technology 7–8",
+  "cohort": "Year 7 / Stage 4",
+  "source_contract": {
+    "artifact_id": "fantastic-food-source-contract",
+    "version": "0.2-draft",
+    "sha256": "c228cb837ab0f5e880b31d930e44d6a7120ecec5e775792375e33317200c4e13"
+  },
+  "authority_state": "Source-bound; the later approved assessment-build-manifest.v1.json supersedes the source contract's older blocked assessment domain; four delivery decisions remain Teacher to confirm",
+  "release_state": "Local-only",
+  "outcomes": [
+    {
+      "code": "TE4-SDP-01",
+      "statement": "explains relationships between sustainability, design and production",
+      "source_id": "NSW-TECH-2023",
+      "module_ids": [
+        "module-3",
+        "module-4",
+        "module-5"
+      ]
+    },
+    {
+      "code": "TE4-PDP-01",
+      "statement": "describes the practices and processes of designers and producers",
+      "source_id": "NSW-TECH-2023",
+      "module_ids": [
+        "module-1",
+        "module-2",
+        "module-4",
+        "module-5"
+      ]
+    },
+    {
+      "code": "TE4-MSC-01",
+      "statement": "explains how materials, systems and components contribute to solutions",
+      "source_id": "NSW-TECH-2023",
+      "module_ids": [
+        "module-2",
+        "module-3",
+        "module-4",
+        "module-5"
+      ]
+    },
+    {
+      "code": "TE4-PPM-01",
+      "statement": "applies processes in the planning, management and production of projects",
+      "source_id": "NSW-TECH-2023",
+      "module_ids": [
+        "module-2",
+        "module-3",
+        "module-4",
+        "module-5"
+      ]
+    },
+    {
+      "code": "TE4-DES-01",
+      "statement": "communicates and evaluates design ideas and solutions",
+      "source_id": "NSW-TECH-2023",
+      "module_ids": [
+        "module-2",
+        "module-3",
+        "module-4",
+        "module-5"
+      ]
+    },
+    {
+      "code": "TE4-SAF-01",
+      "statement": "selects and safely uses tools, materials, technologies and processes",
+      "source_id": "NSW-TECH-2023",
+      "module_ids": [
+        "module-1",
+        "module-2",
+        "module-3",
+        "module-4",
+        "module-5"
+      ]
+    },
+    {
+      "code": "TE4-DIG-01",
+      "statement": "demonstrates technological literacy to safely interact in digital environments",
+      "source_id": "NSW-TECH-2023",
+      "module_ids": [
+        "module-4",
+        "module-5"
+      ]
+    },
+    {
+      "code": "TE4-DIG-02",
+      "statement": "uses data and digital systems to code, design and produce projects",
+      "source_id": "NSW-TECH-2023",
+      "module_ids": [
+        "module-4",
+        "module-5"
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "module_id": "module-1",
+      "title": "Kitchen ready",
+      "timing": "Weeks 1–2; periods 1–3",
+      "outcome_codes": [
+        "TE4-SAF-01",
+        "TE4-PDP-01"
+      ],
+      "sections": [
+        {
+          "section_id": "m1-s1",
+          "title": "Ready to Work Safely in Food Technology",
+          "content_descriptors": [
+            "Safe practices; designer and producer practices."
+          ],
+          "source_ids": [
+            "NSW-TECH-2023",
+            "PROG-2024",
+            "SITE-V7"
+          ],
+          "learning_intention": "Students explain and apply the key ideas in ready to work safely in food technology.",
+          "learning_sequence": [
+            "Read and discuss the section",
+            "Complete the ten-question knowledge check",
+            "Submit the scaffolded written response",
+            "Transfer useful evidence to the folio"
+          ],
+          "working_scientifically": "Not applicable — Technology design, production and evaluation processes are used.",
+          "evidence": "M1-S1 check + response | TE4-SAF-01, TE4-PDP-01",
+          "formative_checks": [
+            "Ten-question section check",
+            "Scaffolded written response",
+            "Teacher observation or feedback"
+          ],
+          "adjustments": [
+            "Use the section diagram and presentation as visual support",
+            "Chunk the written response with the supplied help prompts",
+            "Allow teacher-approved alternative access arrangements"
+          ],
+          "resources": [
+            "modules/module-01.html#m1-s1",
+            "videos.html",
+            "presentations.html",
+            "folio.html"
+          ],
+          "site_destinations": {
+            "theory": "modules/module-01.html#m1-s1",
+            "knowledge_check": "modules/module-01.html#m1-s1",
+            "written_response": "modules/module-01.html#m1-s1",
+            "folio": "folio.html"
+          }
+        },
+        {
+          "section_id": "m1-s2",
+          "title": "Personal Hygiene for Safe Food Work",
+          "content_descriptors": [
+            "Safe food-handling processes; justify safe choices."
+          ],
+          "source_ids": [
+            "NSW-TECH-2023",
+            "PROG-2024",
+            "SITE-V7"
+          ],
+          "learning_intention": "Students explain and apply the key ideas in personal hygiene for safe food work.",
+          "learning_sequence": [
+            "Read and discuss the section",
+            "Complete the ten-question knowledge check",
+            "Submit the scaffolded written response",
+            "Transfer useful evidence to the folio"
+          ],
+          "working_scientifically": "Not applicable — Technology design, production and evaluation processes are used.",
+          "evidence": "M1-S2 check + response | TE4-SAF-01",
+          "formative_checks": [
+            "Ten-question section check",
+            "Scaffolded written response",
+            "Teacher observation or feedback"
+          ],
+          "adjustments": [
+            "Use the section diagram and presentation as visual support",
+            "Chunk the written response with the supplied help prompts",
+            "Allow teacher-approved alternative access arrangements"
+          ],
+          "resources": [
+            "modules/module-01.html#m1-s2",
+            "videos.html",
+            "presentations.html",
+            "folio.html"
+          ],
+          "site_destinations": {
+            "theory": "modules/module-01.html#m1-s2",
+            "knowledge_check": "modules/module-01.html#m1-s2",
+            "written_response": "modules/module-01.html#m1-s2",
+            "folio": "folio.html"
+          }
+        },
+        {
+          "section_id": "m1-s3",
+          "title": "Kitchen Hygiene, Hazards and Washing Up",
+          "content_descriptors": [
+            "Select and safely use tools, technologies and processes."
+          ],
+          "source_ids": [
+            "NSW-TECH-2023",
+            "PROG-2024",
+            "SITE-V7"
+          ],
+          "learning_intention": "Students explain and apply the key ideas in kitchen hygiene, hazards and washing up.",
+          "learning_sequence": [
+            "Read and discuss the section",
+            "Complete the ten-question knowledge check",
+            "Submit the scaffolded written response",
+            "Transfer useful evidence to the folio"
+          ],
+          "working_scientifically": "Not applicable — Technology design, production and evaluation processes are used.",
+          "evidence": "M1-S3 check + response; OnGuard record | TE4-SAF-01",
+          "formative_checks": [
+            "Ten-question section check",
+            "Scaffolded written response",
+            "Teacher observation or feedback"
+          ],
+          "adjustments": [
+            "Use the section diagram and presentation as visual support",
+            "Chunk the written response with the supplied help prompts",
+            "Allow teacher-approved alternative access arrangements"
+          ],
+          "resources": [
+            "modules/module-01.html#m1-s3",
+            "videos.html",
+            "presentations.html",
+            "folio.html"
+          ],
+          "site_destinations": {
+            "theory": "modules/module-01.html#m1-s3",
+            "knowledge_check": "modules/module-01.html#m1-s3",
+            "written_response": "modules/module-01.html#m1-s3",
+            "folio": "folio.html"
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "module-2",
+      "title": "Recipes and nutrients",
+      "timing": "Weeks 2–3; periods 4–7",
+      "outcome_codes": [
+        "TE4-SAF-01",
+        "TE4-PDP-01",
+        "TE4-MSC-01",
+        "TE4-PPM-01",
+        "TE4-DES-01"
+      ],
+      "sections": [
+        {
+          "section_id": "m2-s1",
+          "title": "Reading Recipes: Scones and Savoury Twists",
+          "content_descriptors": [
+            "Interpret food-production information; justify equipment and processes."
+          ],
+          "source_ids": [
+            "NSW-TECH-2023",
+            "PROG-2024",
+            "RECIPE-SCONES",
+            "RECIPE-TWISTS",
+            "SITE-V7"
+          ],
+          "learning_intention": "Students explain and apply the key ideas in reading recipes: scones and savoury twists.",
+          "learning_sequence": [
+            "Read and discuss the section",
+            "Complete the ten-question knowledge check",
+            "Submit the scaffolded written response",
+            "Transfer useful evidence to the folio"
+          ],
+          "working_scientifically": "Not applicable — Technology design, production and evaluation processes are used.",
+          "evidence": "M2-S1 check + response | TE4-PDP-01, TE4-MSC-01",
+          "formative_checks": [
+            "Ten-question section check",
+            "Scaffolded written response",
+            "Teacher observation or feedback"
+          ],
+          "adjustments": [
+            "Use the section diagram and presentation as visual support",
+            "Chunk the written response with the supplied help prompts",
+            "Allow teacher-approved alternative access arrangements"
+          ],
+          "resources": [
+            "modules/module-02.html#m2-s1",
+            "videos.html",
+            "presentations.html",
+            "folio.html"
+          ],
+          "site_destinations": {
+            "theory": "modules/module-02.html#m2-s1",
+            "knowledge_check": "modules/module-02.html#m2-s1",
+            "written_response": "modules/module-02.html#m2-s1",
+            "folio": "folio.html"
+          }
+        },
+        {
+          "section_id": "m2-s2",
+          "title": "Accurate Measuring and Managing a Practical",
+          "content_descriptors": [
+            "Use equipment, tools, techniques and processes to develop practical skills."
+          ],
+          "source_ids": [
+            "NSW-TECH-2023",
+            "PROG-2024",
+            "RECIPE-SCONES",
+            "SITE-V7"
+          ],
+          "learning_intention": "Students explain and apply the key ideas in accurate measuring and managing a practical.",
+          "learning_sequence": [
+            "Read and discuss the section",
+            "Complete the ten-question knowledge check",
+            "Submit the scaffolded written response",
+            "Transfer useful evidence to the folio"
+          ],
+          "working_scientifically": "Not applicable — Technology design, production and evaluation processes are used.",
+          "evidence": "Teacher observation; M2-S2 measuring evidence | TE4-SAF-01, TE4-PPM-01",
+          "formative_checks": [
+            "Ten-question section check",
+            "Scaffolded written response",
+            "Teacher observation or feedback"
+          ],
+          "adjustments": [
+            "Use the section diagram and presentation as visual support",
+            "Chunk the written response with the supplied help prompts",
+            "Allow teacher-approved alternative access arrangements"
+          ],
+          "resources": [
+            "modules/module-02.html#m2-s2",
+            "videos.html",
+            "presentations.html",
+            "folio.html"
+          ],
+          "site_destinations": {
+            "theory": "modules/module-02.html#m2-s2",
+            "knowledge_check": "modules/module-02.html#m2-s2",
+            "written_response": "modules/module-02.html#m2-s2",
+            "folio": "folio.html"
+          }
+        },
+        {
+          "section_id": "m2-s3",
+          "title": "The Six Essential Nutrients",
+          "content_descriptors": [
+            "Investigate nutritional needs and characteristics of food products."
+          ],
+          "source_ids": [
+            "NSW-TECH-2023",
+            "PROG-2024",
+            "BOOK-2023-STUDENT",
+            "SITE-V7"
+          ],
+          "learning_intention": "Students explain and apply the key ideas in the six essential nutrients.",
+          "learning_sequence": [
+            "Read and discuss the section",
+            "Complete the ten-question knowledge check",
+            "Submit the scaffolded written response",
+            "Transfer useful evidence to the folio"
+          ],
+          "working_scientifically": "Not applicable — Technology design, production and evaluation processes are used.",
+          "evidence": "M2-S3 check/response; Activity 3 | TE4-MSC-01",
+          "formative_checks": [
+            "Ten-question section check",
+            "Scaffolded written response",
+            "Teacher observation or feedback"
+          ],
+          "adjustments": [
+            "Use the section diagram and presentation as visual support",
+            "Chunk the written response with the supplied help prompts",
+            "Allow teacher-approved alternative access arrangements"
+          ],
+          "resources": [
+            "modules/module-02.html#m2-s3",
+            "videos.html",
+            "presentations.html",
+            "folio.html"
+          ],
+          "site_destinations": {
+            "theory": "modules/module-02.html#m2-s3",
+            "knowledge_check": "modules/module-02.html#m2-s3",
+            "written_response": "modules/module-02.html#m2-s3",
+            "folio": "folio.html"
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "module-3",
+      "title": "Workflow and healthy choices",
+      "timing": "Weeks 3–5; periods 9–14",
+      "outcome_codes": [
+        "TE4-SDP-01",
+        "TE4-SAF-01",
+        "TE4-MSC-01",
+        "TE4-PPM-01",
+        "TE4-DES-01"
+      ],
+      "sections": [
+        {
+          "section_id": "m3-s1",
+          "title": "Workflow Planning in the Kitchen",
+          "content_descriptors": [
+            "Plan and manage food-production processes; work collaboratively."
+          ],
+          "source_ids": [
+            "NSW-TECH-2023",
+            "PROG-2024",
+            "SITE-V7"
+          ],
+          "learning_intention": "Students explain and apply the key ideas in workflow planning in the kitchen.",
+          "learning_sequence": [
+            "Read and discuss the section",
+            "Complete the ten-question knowledge check",
+            "Submit the scaffolded written response",
+            "Transfer useful evidence to the folio"
+          ],
+          "working_scientifically": "Not applicable — Technology design, production and evaluation processes are used.",
+          "evidence": "M3-S1 check/response; Activity 4 plan | TE4-PPM-01",
+          "formative_checks": [
+            "Ten-question section check",
+            "Scaffolded written response",
+            "Teacher observation or feedback"
+          ],
+          "adjustments": [
+            "Use the section diagram and presentation as visual support",
+            "Chunk the written response with the supplied help prompts",
+            "Allow teacher-approved alternative access arrangements"
+          ],
+          "resources": [
+            "modules/module-03.html#m3-s1",
+            "videos.html",
+            "presentations.html",
+            "folio.html"
+          ],
+          "site_destinations": {
+            "theory": "modules/module-03.html#m3-s1",
+            "knowledge_check": "modules/module-03.html#m3-s1",
+            "written_response": "modules/module-03.html#m3-s1",
+            "folio": "folio.html"
+          }
+        },
+        {
+          "section_id": "m3-s2",
+          "title": "The Australian Guide to Healthy Eating and Adolescent Needs",
+          "content_descriptors": [
+            "Investigate nutritional needs of individuals and groups with specific needs."
+          ],
+          "source_ids": [
+            "NSW-TECH-2023",
+            "BOOK-2023-STUDENT",
+            "SITE-V7"
+          ],
+          "learning_intention": "Students explain and apply the key ideas in the australian guide to healthy eating and adolescent needs.",
+          "learning_sequence": [
+            "Read and discuss the section",
+            "Complete the ten-question knowledge check",
+            "Submit the scaffolded written response",
+            "Transfer useful evidence to the folio"
+          ],
+          "working_scientifically": "Not applicable — Technology design, production and evaluation processes are used.",
+          "evidence": "M3-S2 check/response; Activity 8 | TE4-MSC-01",
+          "formative_checks": [
+            "Ten-question section check",
+            "Scaffolded written response",
+            "Teacher observation or feedback"
+          ],
+          "adjustments": [
+            "Use the section diagram and presentation as visual support",
+            "Chunk the written response with the supplied help prompts",
+            "Allow teacher-approved alternative access arrangements"
+          ],
+          "resources": [
+            "modules/module-03.html#m3-s2",
+            "videos.html",
+            "presentations.html",
+            "folio.html"
+          ],
+          "site_destinations": {
+            "theory": "modules/module-03.html#m3-s2",
+            "knowledge_check": "modules/module-03.html#m3-s2",
+            "written_response": "modules/module-03.html#m3-s2",
+            "folio": "folio.html"
+          }
+        },
+        {
+          "section_id": "m3-s3",
+          "title": "Recipe Modification: Bread Cases and Garlic Cheese Flatbread",
+          "content_descriptors": [
+            "Assess food-solution ideas; explain relationships between sustainability, design and production."
+          ],
+          "source_ids": [
+            "NSW-TECH-2023",
+            "PROG-2024",
+            "RECIPE-BREAD-CASES",
+            "RECIPE-FLATBREAD",
+            "SITE-V7"
+          ],
+          "learning_intention": "Students explain and apply the key ideas in recipe modification: bread cases and garlic cheese flatbread.",
+          "learning_sequence": [
+            "Read and discuss the section",
+            "Complete the ten-question knowledge check",
+            "Submit the scaffolded written response",
+            "Transfer useful evidence to the folio"
+          ],
+          "working_scientifically": "Not applicable — Technology design, production and evaluation processes are used.",
+          "evidence": "M3-S3 check/response; modification rationale | TE4-DES-01, TE4-MSC-01, TE4-SDP-01",
+          "formative_checks": [
+            "Ten-question section check",
+            "Scaffolded written response",
+            "Teacher observation or feedback"
+          ],
+          "adjustments": [
+            "Use the section diagram and presentation as visual support",
+            "Chunk the written response with the supplied help prompts",
+            "Allow teacher-approved alternative access arrangements"
+          ],
+          "resources": [
+            "modules/module-03.html#m3-s3",
+            "videos.html",
+            "presentations.html",
+            "folio.html"
+          ],
+          "site_destinations": {
+            "theory": "modules/module-03.html#m3-s3",
+            "knowledge_check": "modules/module-03.html#m3-s3",
+            "written_response": "modules/module-03.html#m3-s3",
+            "folio": "folio.html"
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "module-4",
+      "title": "Lunchbox design",
+      "timing": "Weeks 5–7; periods 15–21",
+      "outcome_codes": [
+        "TE4-SDP-01",
+        "TE4-PDP-01",
+        "TE4-SAF-01",
+        "TE4-MSC-01",
+        "TE4-PPM-01",
+        "TE4-DES-01",
+        "TE4-DIG-01",
+        "TE4-DIG-02"
+      ],
+      "sections": [
+        {
+          "section_id": "m4-s1",
+          "title": "Planning a Balanced Lunchbox",
+          "content_descriptors": [
+            "Apply critical and creative thinking to assess food-solution ideas."
+          ],
+          "source_ids": [
+            "NSW-TECH-2023",
+            "PROG-2024",
+            "ASSESS-2026",
+            "SITE-V7"
+          ],
+          "learning_intention": "Students explain and apply the key ideas in planning a balanced lunchbox.",
+          "learning_sequence": [
+            "Read and discuss the section",
+            "Complete the ten-question knowledge check",
+            "Submit the scaffolded written response",
+            "Transfer useful evidence to the folio"
+          ],
+          "working_scientifically": "Not applicable — Technology design, production and evaluation processes are used.",
+          "evidence": "M4-S1 check/response; criteria | TE4-DES-01, TE4-MSC-01",
+          "formative_checks": [
+            "Ten-question section check",
+            "Scaffolded written response",
+            "Teacher observation or feedback"
+          ],
+          "adjustments": [
+            "Use the section diagram and presentation as visual support",
+            "Chunk the written response with the supplied help prompts",
+            "Allow teacher-approved alternative access arrangements"
+          ],
+          "resources": [
+            "modules/module-04.html#m4-s1",
+            "videos.html",
+            "presentations.html",
+            "folio.html"
+          ],
+          "site_destinations": {
+            "theory": "modules/module-04.html#m4-s1",
+            "knowledge_check": "modules/module-04.html#m4-s1",
+            "written_response": "modules/module-04.html#m4-s1",
+            "folio": "folio.html"
+          }
+        },
+        {
+          "section_id": "m4-s2",
+          "title": "Food Orders and Practical Organisation",
+          "content_descriptors": [
+            "Plan and manage production; justify equipment, processes and resources."
+          ],
+          "source_ids": [
+            "NSW-TECH-2023",
+            "PROG-2024",
+            "ASSESS-2026",
+            "SITE-V7"
+          ],
+          "learning_intention": "Students explain and apply the key ideas in food orders and practical organisation.",
+          "learning_sequence": [
+            "Read and discuss the section",
+            "Complete the ten-question knowledge check",
+            "Submit the scaffolded written response",
+            "Transfer useful evidence to the folio"
+          ],
+          "working_scientifically": "Not applicable — Technology design, production and evaluation processes are used.",
+          "evidence": "M4-S2 check/response; order + time plan | TE4-PPM-01",
+          "formative_checks": [
+            "Ten-question section check",
+            "Scaffolded written response",
+            "Teacher observation or feedback"
+          ],
+          "adjustments": [
+            "Use the section diagram and presentation as visual support",
+            "Chunk the written response with the supplied help prompts",
+            "Allow teacher-approved alternative access arrangements"
+          ],
+          "resources": [
+            "modules/module-04.html#m4-s2",
+            "videos.html",
+            "presentations.html",
+            "folio.html"
+          ],
+          "site_destinations": {
+            "theory": "modules/module-04.html#m4-s2",
+            "knowledge_check": "modules/module-04.html#m4-s2",
+            "written_response": "modules/module-04.html#m4-s2",
+            "folio": "folio.html"
+          }
+        },
+        {
+          "section_id": "m4-s3",
+          "title": "Coconut Balls Practical and Healthier Fast-Food Redesign",
+          "content_descriptors": [
+            "Evaluate food solutions; explain relationships between sustainability, design and production."
+          ],
+          "source_ids": [
+            "NSW-TECH-2023",
+            "PROG-2024",
+            "SITE-V7"
+          ],
+          "learning_intention": "Students explain and apply the key ideas in coconut balls practical and healthier fast-food redesign.",
+          "learning_sequence": [
+            "Read and discuss the section",
+            "Complete the ten-question knowledge check",
+            "Submit the scaffolded written response",
+            "Transfer useful evidence to the folio"
+          ],
+          "working_scientifically": "Not applicable — Technology design, production and evaluation processes are used.",
+          "evidence": "M4-S3 check/response; redesign rationale | TE4-DES-01, TE4-PDP-01, TE4-SDP-01",
+          "formative_checks": [
+            "Ten-question section check",
+            "Scaffolded written response",
+            "Teacher observation or feedback"
+          ],
+          "adjustments": [
+            "Use the section diagram and presentation as visual support",
+            "Chunk the written response with the supplied help prompts",
+            "Allow teacher-approved alternative access arrangements"
+          ],
+          "resources": [
+            "modules/module-04.html#m4-s3",
+            "videos.html",
+            "presentations.html",
+            "folio.html"
+          ],
+          "site_destinations": {
+            "theory": "modules/module-04.html#m4-s3",
+            "knowledge_check": "modules/module-04.html#m4-s3",
+            "written_response": "modules/module-04.html#m4-s3",
+            "folio": "folio.html"
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "module-5",
+      "title": "Evaluate and complete",
+      "timing": "Weeks 8–10; periods 24–30",
+      "outcome_codes": [
+        "TE4-SDP-01",
+        "TE4-PDP-01",
+        "TE4-SAF-01",
+        "TE4-MSC-01",
+        "TE4-PPM-01",
+        "TE4-DES-01",
+        "TE4-DIG-01",
+        "TE4-DIG-02"
+      ],
+      "sections": [
+        {
+          "section_id": "m5-s1",
+          "title": "Fibre and Water for Healthy Bodies",
+          "content_descriptors": [
+            "Investigate nutritional needs and evaluate ingredient selection."
+          ],
+          "source_ids": [
+            "NSW-TECH-2023",
+            "PROG-2024",
+            "BOOK-2023-STUDENT",
+            "SITE-V7"
+          ],
+          "learning_intention": "Students explain and apply the key ideas in fibre and water for healthy bodies.",
+          "learning_sequence": [
+            "Read and discuss the section",
+            "Complete the ten-question knowledge check",
+            "Submit the scaffolded written response",
+            "Transfer useful evidence to the folio"
+          ],
+          "working_scientifically": "Not applicable — Technology design, production and evaluation processes are used.",
+          "evidence": "M5-S1 check + response | TE4-MSC-01",
+          "formative_checks": [
+            "Ten-question section check",
+            "Scaffolded written response",
+            "Teacher observation or feedback"
+          ],
+          "adjustments": [
+            "Use the section diagram and presentation as visual support",
+            "Chunk the written response with the supplied help prompts",
+            "Allow teacher-approved alternative access arrangements"
+          ],
+          "resources": [
+            "modules/module-05.html#m5-s1",
+            "videos.html",
+            "presentations.html",
+            "folio.html"
+          ],
+          "site_destinations": {
+            "theory": "modules/module-05.html#m5-s1",
+            "knowledge_check": "modules/module-05.html#m5-s1",
+            "written_response": "modules/module-05.html#m5-s1",
+            "folio": "folio.html"
+          }
+        },
+        {
+          "section_id": "m5-s2",
+          "title": "Fettuccine Carbonara: Sequencing and Safe Workflow",
+          "content_descriptors": [
+            "Plan, manage and safely apply food-production processes."
+          ],
+          "source_ids": [
+            "NSW-TECH-2023",
+            "PROG-2024",
+            "RECIPE-CARBONARA",
+            "SITE-V7"
+          ],
+          "learning_intention": "Students explain and apply the key ideas in fettuccine carbonara: sequencing and safe workflow.",
+          "learning_sequence": [
+            "Read and discuss the section",
+            "Complete the ten-question knowledge check",
+            "Submit the scaffolded written response",
+            "Transfer useful evidence to the folio"
+          ],
+          "working_scientifically": "Not applicable — Technology design, production and evaluation processes are used.",
+          "evidence": "M5-S2 check; workflow observation | TE4-SAF-01, TE4-PPM-01",
+          "formative_checks": [
+            "Ten-question section check",
+            "Scaffolded written response",
+            "Teacher observation or feedback"
+          ],
+          "adjustments": [
+            "Use the section diagram and presentation as visual support",
+            "Chunk the written response with the supplied help prompts",
+            "Allow teacher-approved alternative access arrangements"
+          ],
+          "resources": [
+            "modules/module-05.html#m5-s2",
+            "videos.html",
+            "presentations.html",
+            "folio.html"
+          ],
+          "site_destinations": {
+            "theory": "modules/module-05.html#m5-s2",
+            "knowledge_check": "modules/module-05.html#m5-s2",
+            "written_response": "modules/module-05.html#m5-s2",
+            "folio": "folio.html"
+          }
+        },
+        {
+          "section_id": "m5-s3",
+          "title": "Evaluating Food Solutions and Course Learning",
+          "content_descriptors": [
+            "Communicate and evaluate design solutions, production relationships and digital user experience."
+          ],
+          "source_ids": [
+            "NSW-TECH-2023",
+            "ASSESS-2026",
+            "SITE-V7"
+          ],
+          "learning_intention": "Students explain and apply the key ideas in evaluating food solutions and course learning.",
+          "learning_sequence": [
+            "Read and discuss the section",
+            "Complete the ten-question knowledge check",
+            "Submit the scaffolded written response",
+            "Transfer useful evidence to the folio"
+          ],
+          "working_scientifically": "Not applicable — Technology design, production and evaluation processes are used.",
+          "evidence": "M5-S3 response; Task 2 evaluation | TE4-SDP-01, TE4-PDP-01, TE4-PPM-01, TE4-DES-01, TE4-DIG-01, TE4-DIG-02",
+          "formative_checks": [
+            "Ten-question section check",
+            "Scaffolded written response",
+            "Teacher observation or feedback"
+          ],
+          "adjustments": [
+            "Use the section diagram and presentation as visual support",
+            "Chunk the written response with the supplied help prompts",
+            "Allow teacher-approved alternative access arrangements"
+          ],
+          "resources": [
+            "modules/module-05.html#m5-s3",
+            "videos.html",
+            "presentations.html",
+            "folio.html"
+          ],
+          "site_destinations": {
+            "theory": "modules/module-05.html#m5-s3",
+            "knowledge_check": "modules/module-05.html#m5-s3",
+            "written_response": "modules/module-05.html#m5-s3",
+            "folio": "folio.html"
+          }
+        }
+      ]
+    }
+  ],
+  "teacher_to_confirm": [
+    {
+      "id": "TBC-01",
+      "status": "Teacher to confirm",
+      "owner": "Class teacher / Head Teacher",
+      "affected_scope": "Periods 5, 6, 22, 23, 26, 27, 29, 30",
+      "due_before": "Timetable release",
+      "smallest_action": "Annotate the delivery ledger with the actual timetable pattern."
+    },
+    {
+      "id": "TBC-02",
+      "status": "Teacher to confirm",
+      "owner": "Class teacher",
+      "affected_scope": "Periods 5, 6, 10, 12, 14, 16, 17, 20, 21, 22, 23, 26, 27, 29, 30",
+      "due_before": "Each practical and ingredient order",
+      "smallest_action": "Complete the school practical risk and dietary check before each named practical."
+    },
+    {
+      "id": "TBC-03",
+      "status": "Teacher to confirm",
+      "owner": "Steve / class teacher",
+      "affected_scope": "Periods 26, 27",
+      "due_before": "Period 26 ingredient order",
+      "smallest_action": "Nominate the authorised muffin master and update the activity/recipe label if required."
+    },
+    {
+      "id": "TBC-04",
+      "status": "Teacher to confirm",
+      "owner": "Steve / Head Teacher",
+      "affected_scope": "Periods 8, 19, 20, 28, 30",
+      "due_before": "Start-of-term issue",
+      "smallest_action": "Replace the end-of-semester timing fields with the approved calendar dates for the class."
+    }
+  ],
+  "site_mapping": [
+    {
+      "route": "modules/module-01.html#m1-s1",
+      "audience": "student",
+      "purpose": "Theory, knowledge check and written response for Ready to Work Safely in Food Technology",
+      "module_id": "module-1",
+      "section_id": "m1-s1"
+    },
+    {
+      "route": "modules/module-01.html#m1-s2",
+      "audience": "student",
+      "purpose": "Theory, knowledge check and written response for Personal Hygiene for Safe Food Work",
+      "module_id": "module-1",
+      "section_id": "m1-s2"
+    },
+    {
+      "route": "modules/module-01.html#m1-s3",
+      "audience": "student",
+      "purpose": "Theory, knowledge check and written response for Kitchen Hygiene, Hazards and Washing Up",
+      "module_id": "module-1",
+      "section_id": "m1-s3"
+    },
+    {
+      "route": "modules/module-02.html#m2-s1",
+      "audience": "student",
+      "purpose": "Theory, knowledge check and written response for Reading Recipes: Scones and Savoury Twists",
+      "module_id": "module-2",
+      "section_id": "m2-s1"
+    },
+    {
+      "route": "modules/module-02.html#m2-s2",
+      "audience": "student",
+      "purpose": "Theory, knowledge check and written response for Accurate Measuring and Managing a Practical",
+      "module_id": "module-2",
+      "section_id": "m2-s2"
+    },
+    {
+      "route": "modules/module-02.html#m2-s3",
+      "audience": "student",
+      "purpose": "Theory, knowledge check and written response for The Six Essential Nutrients",
+      "module_id": "module-2",
+      "section_id": "m2-s3"
+    },
+    {
+      "route": "modules/module-03.html#m3-s1",
+      "audience": "student",
+      "purpose": "Theory, knowledge check and written response for Workflow Planning in the Kitchen",
+      "module_id": "module-3",
+      "section_id": "m3-s1"
+    },
+    {
+      "route": "modules/module-03.html#m3-s2",
+      "audience": "student",
+      "purpose": "Theory, knowledge check and written response for The Australian Guide to Healthy Eating and Adolescent Needs",
+      "module_id": "module-3",
+      "section_id": "m3-s2"
+    },
+    {
+      "route": "modules/module-03.html#m3-s3",
+      "audience": "student",
+      "purpose": "Theory, knowledge check and written response for Recipe Modification: Bread Cases and Garlic Cheese Flatbread",
+      "module_id": "module-3",
+      "section_id": "m3-s3"
+    },
+    {
+      "route": "modules/module-04.html#m4-s1",
+      "audience": "student",
+      "purpose": "Theory, knowledge check and written response for Planning a Balanced Lunchbox",
+      "module_id": "module-4",
+      "section_id": "m4-s1"
+    },
+    {
+      "route": "modules/module-04.html#m4-s2",
+      "audience": "student",
+      "purpose": "Theory, knowledge check and written response for Food Orders and Practical Organisation",
+      "module_id": "module-4",
+      "section_id": "m4-s2"
+    },
+    {
+      "route": "modules/module-04.html#m4-s3",
+      "audience": "student",
+      "purpose": "Theory, knowledge check and written response for Coconut Balls Practical and Healthier Fast-Food Redesign",
+      "module_id": "module-4",
+      "section_id": "m4-s3"
+    },
+    {
+      "route": "modules/module-05.html#m5-s1",
+      "audience": "student",
+      "purpose": "Theory, knowledge check and written response for Fibre and Water for Healthy Bodies",
+      "module_id": "module-5",
+      "section_id": "m5-s1"
+    },
+    {
+      "route": "modules/module-05.html#m5-s2",
+      "audience": "student",
+      "purpose": "Theory, knowledge check and written response for Fettuccine Carbonara: Sequencing and Safe Workflow",
+      "module_id": "module-5",
+      "section_id": "m5-s2"
+    },
+    {
+      "route": "modules/module-05.html#m5-s3",
+      "audience": "student",
+      "purpose": "Theory, knowledge check and written response for Evaluating Food Solutions and Course Learning",
+      "module_id": "module-5",
+      "section_id": "m5-s3"
+    },
+    {
+      "route": "activities/index.html",
+      "audience": "student",
+      "purpose": "Ten structured course activities",
+      "module_id": "module-1"
+    },
+    {
+      "route": "videos.html",
+      "audience": "student",
+      "purpose": "Fifteen section-matched instructional videos",
+      "module_id": "module-1"
+    },
+    {
+      "route": "presentations.html",
+      "audience": "student",
+      "purpose": "Five module PowerPoint presentations",
+      "module_id": "module-1"
+    },
+    {
+      "route": "recipes.html",
+      "audience": "student",
+      "purpose": "Eight authorised recipe masters",
+      "module_id": "module-2"
+    },
+    {
+      "route": "folio.html",
+      "audience": "student",
+      "purpose": "Eight-stage student evidence folio",
+      "module_id": "module-1"
+    },
+    {
+      "route": "assessment.html",
+      "audience": "both",
+      "purpose": "Three approved formal assessment notifications and schedule",
+      "module_id": "module-4"
+    }
+  ],
+  "delivery_ledger": {
+    "planned_total_minutes": 1800,
+    "planned_investigation_minutes": 0,
+    "categories": {
+      "Site/theory": 720,
+      "Project/folio": 360,
+      "Practical": 720
+    },
+    "actual_status": "Blank for teacher completion during delivery"
+  },
+  "files": [
+    {
+      "path": "C:\\Users\\scowell1\\Documents\\Codex\\2026-08-18\\u\\outputs\\fantastic-food-foundation-v7-assessment\\resources\\teacher\\Fantastic-Food-30-Period-Teaching-Program-v1.0-Compact-10pt.docx",
+      "purpose": "Editable teaching program and scope and sequence"
+    },
+    {
+      "path": "C:\\Users\\scowell1\\Documents\\Codex\\2026-08-18\\u\\outputs\\fantastic-food-foundation-v7-assessment\\resources\\teacher\\Fantastic-Food-30-Period-Teaching-Program-v1.0-Compact-10pt.pdf",
+      "purpose": "Rendered A4 landscape teacher program"
+    },
+    {
+      "path": "C:\\Users\\scowell1\\Documents\\Codex\\2026-08-18\\u\\outputs\\fantastic-food-foundation-v7-assessment\\resources\\teacher\\Fantastic-Food-30-Period-Teaching-Program-v1.0-Alignment.json",
+      "purpose": "Schema 1.1 site alignment manifest"
+    },
+    {
+      "path": "C:\\Users\\scowell1\\Documents\\Codex\\2026-08-18\\u\\outputs\\fantastic-food-foundation-v7-assessment\\resources\\teacher\\Fantastic-Food-Teaching-Program-Site-Map-v1.0.json",
+      "purpose": "Teacher-program route map"
+    },
+    {
+      "path": "C:\\Users\\scowell1\\Documents\\Codex\\2026-08-18\\u\\outputs\\fantastic-food-foundation-v7-assessment\\resources\\teacher\\Fantastic-Food-Delivery-Ledger-v1.0.docx",
+      "purpose": "Editable delivery ledger"
+    }
+  ]
+}

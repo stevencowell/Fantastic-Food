@@ -1,0 +1,118 @@
+{
+  "schema_version": "1.0",
+  "course": "Fantastic Food",
+  "teacher_resource_route": "teacher-resources.html",
+  "integration_state": "request-only; shared site HTML not edited by build-course-program",
+  "resources": [
+    {
+      "label": "Teaching Program and Scope & Sequence — editable",
+      "route": "resources/teacher/Fantastic-Food-30-Period-Teaching-Program-v1.0-Compact-10pt.docx",
+      "audience": "teacher"
+    },
+    {
+      "label": "Teaching Program and Scope & Sequence — print PDF",
+      "route": "resources/teacher/Fantastic-Food-30-Period-Teaching-Program-v1.0-Compact-10pt.pdf",
+      "audience": "teacher"
+    },
+    {
+      "label": "Delivery Ledger — editable",
+      "route": "resources/teacher/Fantastic-Food-Delivery-Ledger-v1.0.docx",
+      "audience": "teacher"
+    }
+  ],
+  "section_routes": [
+    {
+      "section_id": "m1-s1",
+      "module_id": "module-1",
+      "route": "modules/module-01.html#m1-s1",
+      "period": 1
+    },
+    {
+      "section_id": "m1-s2",
+      "module_id": "module-1",
+      "route": "modules/module-01.html#m1-s2",
+      "period": 2
+    },
+    {
+      "section_id": "m1-s3",
+      "module_id": "module-1",
+      "route": "modules/module-01.html#m1-s3",
+      "period": 3
+    },
+    {
+      "section_id": "m2-s1",
+      "module_id": "module-2",
+      "route": "modules/module-02.html#m2-s1",
+      "period": 4
+    },
+    {
+      "section_id": "m2-s2",
+      "module_id": "module-2",
+      "route": "modules/module-02.html#m2-s2",
+      "period": 5
+    },
+    {
+      "section_id": "m2-s3",
+      "module_id": "module-2",
+      "route": "modules/module-02.html#m2-s3",
+      "period": 7
+    },
+    {
+      "section_id": "m3-s1",
+      "module_id": "module-3",
+      "route": "modules/module-03.html#m3-s1",
+      "period": 9
+    },
+    {
+      "section_id": "m3-s2",
+      "module_id": "module-3",
+      "route": "modules/module-03.html#m3-s2",
+      "period": 11
+    },
+    {
+      "section_id": "m3-s3",
+      "module_id": "module-3",
+      "route": "modules/module-03.html#m3-s3",
+      "period": 13
+    },
+    {
+      "section_id": "m4-s1",
+      "module_id": "module-4",
+      "route": "modules/module-04.html#m4-s1",
+      "period": 15
+    },
+    {
+      "section_id": "m4-s2",
+      "module_id": "module-4",
+      "route": "modules/module-04.html#m4-s2",
+      "period": 16
+    },
+    {
+      "section_id": "m4-s3",
+      "module_id": "module-4",
+      "route": "modules/module-04.html#m4-s3",
+      "period": 18
+    },
+    {
+      "section_id": "m5-s1",
+      "module_id": "module-5",
+      "route": "modules/module-05.html#m5-s1",
+      "period": 25
+    },
+    {
+      "section_id": "m5-s2",
+      "module_id": "module-5",
+      "route": "modules/module-05.html#m5-s2",
+      "period": 29
+    },
+    {
+      "section_id": "m5-s3",
+      "module_id": "module-5",
+      "route": "modules/module-05.html#m5-s3",
+      "period": 24
+    }
+  ],
+  "assessment_route": "assessment.html",
+  "folio_route": "folio.html",
+  "integration_request": "C:\\Users\\scowell1\\Documents\\Codex\\2026-08-18\\u\\outputs\\fantastic-food-foundation-v7-assessment\\TEACHING-PROGRAM-INTEGRATION-REQUEST.md"
+}

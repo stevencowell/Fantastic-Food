@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Hazard and hygiene response comparison</title>
+  <desc id="desc">A possible hazard and unhygienic behaviour are different observations. Both lead to stopping, reporting or asking, and following teacher directions.</desc>
+  <defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0 0L12 6L0 12Z" fill="#173f35"/></marker></defs>
+  <rect width="1200" height="720" rx="28" fill="#fffdf8"/>
+  <text x="70" y="72" font-family="Segoe UI, sans-serif" font-size="38" font-weight="700" fill="#173f35">Different observations, one calm response</text>
+  <g font-family="Segoe UI, sans-serif">
+    <rect x="70" y="145" width="430" height="190" rx="24" fill="#fff0c8" stroke="#b78418" stroke-width="3"/>
+    <text x="285" y="205" text-anchor="middle" font-size="30" font-weight="800" fill="#7d5b12">Possible hazard</text>
+    <text x="110" y="255" font-size="23" fill="#20312b">Something may cause harm</text><text x="110" y="292" font-size="23" fill="#20312b">or make the work unsafe.</text>
+    <rect x="700" y="145" width="430" height="190" rx="24" fill="#f7ddd7" stroke="#cf5b43" stroke-width="3"/>
+    <text x="915" y="205" text-anchor="middle" font-size="30" font-weight="800" fill="#8d3528">Unhygienic behaviour</text>
+    <text x="740" y="255" font-size="23" fill="#20312b">A routine may no longer</text><text x="740" y="292" font-size="23" fill="#20312b">protect clean food work.</text>
+  </g>
+  <g fill="none" stroke="#173f35" stroke-width="7" marker-end="url(#arrow)"><path d="M285 340V430H520"/><path d="M915 340V430H680"/></g>
+  <g font-family="Segoe UI, sans-serif" text-anchor="middle">
+    <rect x="390" y="405" width="420" height="112" rx="22" fill="#173f35"/><text x="600" y="452" font-size="28" font-weight="800" fill="white">Stop · report or ask</text><text x="600" y="488" font-size="22" fill="#dcebe3">when you are unsure</text>
+    <path d="M600 520V570" stroke="#173f35" stroke-width="7" marker-end="url(#arrow)"/>
+    <rect x="390" y="580" width="420" height="82" rx="22" fill="#dcebe3" stroke="#173f35" stroke-width="3"/><text x="600" y="632" font-size="27" font-weight="800" fill="#173f35">Follow teacher directions</text>
+  </g>
+</svg>

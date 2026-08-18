@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "artifact_id": "fantastic-food-teaching-program-qa",
+  "version": "1.0",
+  "subject_manifest_digest": "sha256:1d591055225a43da9b9b40acbe3ad446402d73fa554097f6fabaa8b09e54e3f3",
+  "checks": {
+    "alignment_manifest_validator": "PASS — 30 periods; Site/theory 12; Project/folio 6; Practical 12",
+    "teacher_program_validator": "PASS — 5 modules; 15 sections; 8 outcomes",
+    "docx_pdf_text_reconciliation": "PASS — title, task names, current outcome codes, 30 period numbers, muffin conflict and Carbonara content present",
+    "assessment_outcome_reconciliation": "PASS — Task 2 and Task 3 teaching/evidence rows reproduce the approved current outcome sets; TE4-SDP-01 is explicitly taught before assessment",
+    "program_render": "PASS — 4/4 A4 landscape pages inspected; no clipping, overflow, table spill or unreadable text",
+    "delivery_ledger_render": "PASS — 2/2 A4 landscape pages inspected; periods 1–30 present with balanced 14/16 split",
+    "minimum_table_font": "10 point in the teaching-program period table"
+  },
+  "rendered_evidence": [
+    "C:\\Users\\scowell1\\Documents\\Codex\\2026-08-18\\u\\work\\fantastic-food-program-qa\\v1.1\\program\\page-1.png",
+    "C:\\Users\\scowell1\\Documents\\Codex\\2026-08-18\\u\\work\\fantastic-food-program-qa\\v1.1\\program\\page-2.png",
+    "C:\\Users\\scowell1\\Documents\\Codex\\2026-08-18\\u\\work\\fantastic-food-program-qa\\v1.1\\program\\page-3.png",
+    "C:\\Users\\scowell1\\Documents\\Codex\\2026-08-18\\u\\work\\fantastic-food-program-qa\\v1.1\\program\\page-4.png",
+    "C:\\Users\\scowell1\\Documents\\Codex\\2026-08-18\\u\\work\\fantastic-food-program-qa\\v1.0\\ledger\\page-1.png",
+    "C:\\Users\\scowell1\\Documents\\Codex\\2026-08-18\\u\\work\\fantastic-food-program-qa\\v1.0\\ledger\\page-2.png"
+  ],
+  "publication_boundary": "Local only until the complete course release gate is run."
+}

@@ -1,0 +1,37 @@
+{
+  "schemaVersion": "fantastic-food-youtube-manifest/v1",
+  "version": "1.0.0",
+  "course": "Fantastic Food",
+  "validatedOn": "2026-08-18",
+  "publicationBoundary": "Local-only. No push, deployment or live-site change authorised.",
+  "sourceContract": "sha256:c228cb837ab0f5e880b31d930e44d6a7120ecec5e775792375e33317200c4e13",
+  "validationMethod": [
+    "section-to-video teaching-purpose review",
+    "YouTube oEmbed title and channel check",
+    "public watch URL check",
+    "privacy-enhanced youtube-nocookie embed check",
+    "official YouTube thumbnail route check"
+  ],
+  "coverage": {"namedSections": 15, "matchedVideos": 15, "gaps": 0, "duplicateVideoIds": 0},
+  "videos": [
+    {"section":"m1-s1","videoId":"RUeVNCEDbCo","title":"Four Golden Rules of food safety","channel":"NSWFoodAuthority","result":"PASS"},
+    {"section":"m1-s2","videoId":"Xm_X5LJmrbw","title":"How Does Cross-Contamination Happen?","channel":"USDAFoodSafety","result":"PASS"},
+    {"section":"m1-s3","videoId":"w8lqqCaKGHg","title":"Clean as you go and deep cleaning","channel":"Food Consulting Services","result":"PASS"},
+    {"section":"m2-s1","videoId":"NFSZB4dGI_s","title":"How to Read a Recipe | Jessi Holden, MS, RDN","channel":"The Kitchen Invitation","result":"PASS"},
+    {"section":"m2-s2","videoId":"89omDmw6m_Y","title":"How to measure dry and liquid ingredients","channel":"Citytv","result":"PASS"},
+    {"section":"m2-s3","videoId":"93br2D8rTAQ","title":"nutrition- Six essential nutrients","channel":"RGMG Education","result":"PASS"},
+    {"section":"m3-s1","videoId":"4h1imzBn8pE","title":"Master the Art of Mise En Place: Organize Like a Pro","channel":"WebstaurantStore","result":"PASS"},
+    {"section":"m3-s2","videoId":"fWZuiMrxPg0","title":"Five Food Groups","channel":"Foodbank SA & NT","result":"PASS"},
+    {"section":"m3-s3","videoId":"SIj7CuwdVDA","title":"Understanding Criteria and Constraints","channel":"Chorus Educational K-12 Content","result":"PASS"},
+    {"section":"m4-s1","videoId":"mjb4niYijsg","title":"What is SWAP IT?","channel":"Good For Kids","result":"PASS"},
+    {"section":"m4-s2","videoId":"a2RAbjkbbMo","title":"Cooking Techniques: Converting Recipe Yields","channel":"ILExtensionHMRS","result":"PASS"},
+    {"section":"m4-s3","videoId":"IqUjftjsnyI","title":"How to Evaluate Design Solutions","channel":"Chorus Educational K-12 Content","result":"PASS"},
+    {"section":"m5-s1","videoId":"_qo5Bllt1_M","title":"Dietary Fibre: The Most Important Nutrient? Best Fiber Foods?","channel":"Free Animated Education","result":"PASS"},
+    {"section":"m5-s2","videoId":"0vICpqEVK8o","title":"How to Write a Time Plan || Food, Nutrition and Health || Eps 3","channel":"The Foods Teacher","result":"PASS"},
+    {"section":"m5-s3","videoId":"rmM0kRf8Dbk","title":"Principles of Human-Centered Design (Don Norman)","channel":"NNgroup","result":"PASS"}
+  ],
+  "rejectedOrReplaced": [
+    {"videoId":"xyQY8a-ng6g","title":"How the food you eat affects your brain","reason":"Removed from m4-s3 because it does not teach criteria-based redesign or evaluation."},
+    {"source":"Google Drive teacher-posted kitchen safety video","reason":"Replaced in the public course player by a section-specific NSW Food Authority clip with a validated title, channel, thumbnail and privacy-enhanced embed."}
+  ]
+}
