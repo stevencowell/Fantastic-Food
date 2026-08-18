@@ -18,7 +18,7 @@
     "id": "fantastic-food-integration-manifest",
     "type": "integration-manifest",
     "version": "2.0.0-release-candidate",
-    "digest": "sha256:9021285b0c591da9706c644d540dd3e3ffc7b085ec4500a4d3b6b26153bf3d02",
+    "digest": "sha256:f22c4342875ee4e43930c482d1bcdd533ad8e1fb7cf629ad08b1f1b9baa7d080",
     "owner_skill": "integrate-course-site",
     "owner_task": "TASK 30 — Fantastic Food full build",
     "owned_paths": [
@@ -54,9 +54,9 @@
     {"artifact_id":"fantastic-food-teaching-program-manifest","version":"1.0","digest":"sha256:1d591055225a43da9b9b40acbe3ad446402d73fa554097f6fabaa8b09e54e3f3"}
   ],
   "outputs": [
-    {"path_or_route":"integration-manifest.v1.json","digest":"sha256:9021285b0c591da9706c644d540dd3e3ffc7b085ec4500a4d3b6b26153bf3d02","purpose":"canonical integrated-course manifest"},
-    {"path_or_route":"course content tree excluding integration manifest, integration handoff and .git","digest":"sha256:5f6305bba4ab028fff41d339a41f09fb935eb93ea537e77d7d58445717f2f9cd","purpose":"frozen integrated course content"},
-    {"path_or_route":"busy-work/","digest":"sha256:2af21d92d161924456eb9cd416f8e4b7c8334dde07d13d7da6fa664449f17f1f","purpose":"twenty course-specific interactive practice routes"}
+    {"path_or_route":"integration-manifest.v1.json","digest":"sha256:f22c4342875ee4e43930c482d1bcdd533ad8e1fb7cf629ad08b1f1b9baa7d080","purpose":"canonical integrated-course manifest"},
+    {"path_or_route":"course content tree excluding integration manifest, integration handoff and .git","digest":"sha256:bebea09f4be8fdd74b5dee5b143a43411c73cfd31fb62fdbe6405fb8dfff811c","purpose":"frozen integrated course content"},
+    {"path_or_route":"busy-work/","digest":"sha256:f4b5bd8c4c0f5d2027237172ebc74c77f23327bae236f2d2affababcd7db1740","purpose":"twenty course-specific interactive practice routes"}
   ],
   "coverage": {
     "modules": 5,
@@ -76,7 +76,7 @@
   "gate": {
     "environment": "local",
     "phase": "pre-release",
-    "subject_digest": "sha256:9021285b0c591da9706c644d540dd3e3ffc7b085ec4500a4d3b6b26153bf3d02",
+    "subject_digest": "sha256:f22c4342875ee4e43930c482d1bcdd533ad8e1fb7cf629ad08b1f1b9baa7d080",
     "reviewer_skill": "qa-course-experience",
     "reviewer_task": "TASK 30 — independent integrated-course QA rerun",
     "independent": true,

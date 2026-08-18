@@ -17,7 +17,7 @@
   },
   "content_tree": {
     "digest_method": "sorted forward-slash relative path, tab, lowercase file SHA-256, LF after each row; integration manifest, integration handoff and .git excluded",
-    "digest": "sha256:5f6305bba4ab028fff41d339a41f09fb935eb93ea537e77d7d58445717f2f9cd",
+    "digest": "sha256:bebea09f4be8fdd74b5dee5b143a43411c73cfd31fb62fdbe6405fb8dfff811c",
     "files": 110
   },
   "accepted_inputs": [
@@ -32,7 +32,7 @@
   "integrated_systems": {
     "modules": {"count":5,"sections":15,"knowledge_checks":15,"mcqs":150,"written_responses":15,"current_outcomes_visible":true,"precise_help_targets":15,"model_answers_rendered":0},
     "activities": {"evidence_routes":10,"folio_import":"all non-empty evidence fields are combined without deleting source keys"},
-    "busy_work": {"routes":20,"tree_digest":"sha256:2af21d92d161924456eb9cd416f8e4b7c8334dde07d13d7da6fa664449f17f1f","files":23,"mechanics":12,"completion_invalidation":true},
+    "busy_work": {"routes":20,"tree_digest":"sha256:f4b5bd8c4c0f5d2027237172ebc74c77f23327bae236f2d2affababcd7db1740","files":23,"mechanics":12,"completion_invalidation":true},
     "visuals": {"audited_svg_assets":15,"responsive_open_larger_route":"visual.html?section=<section-id>","artwork_hashes_preserved":true},
     "videos": {"section_cards":15,"privacy_enhanced_embeds":true,"fallback_links":15},
     "folio": {"stages":8,"device_local_autosave":true,"backup_restore":true,"print_pages":10},
