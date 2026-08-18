@@ -18,7 +18,7 @@
     "id": "fantastic-food-integration-manifest",
     "type": "integration-manifest",
     "version": "2.0.0-release-candidate",
-    "digest": "sha256:f22c4342875ee4e43930c482d1bcdd533ad8e1fb7cf629ad08b1f1b9baa7d080",
+    "digest": "sha256:2ccc4e06dfcfe8fd5ebdd62c3f16ed6a579b3b49f0049a8cfe13d16ceb20a223",
     "owner_skill": "integrate-course-site",
     "owner_task": "TASK 30 — Fantastic Food full build",
     "owned_paths": [
@@ -54,8 +54,8 @@
     {"artifact_id":"fantastic-food-teaching-program-manifest","version":"1.0","digest":"sha256:1d591055225a43da9b9b40acbe3ad446402d73fa554097f6fabaa8b09e54e3f3"}
   ],
   "outputs": [
-    {"path_or_route":"integration-manifest.v1.json","digest":"sha256:f22c4342875ee4e43930c482d1bcdd533ad8e1fb7cf629ad08b1f1b9baa7d080","purpose":"canonical integrated-course manifest"},
-    {"path_or_route":"course content tree excluding integration manifest, integration handoff and .git","digest":"sha256:bebea09f4be8fdd74b5dee5b143a43411c73cfd31fb62fdbe6405fb8dfff811c","purpose":"frozen integrated course content"},
+    {"path_or_route":"integration-manifest.v1.json","digest":"sha256:2ccc4e06dfcfe8fd5ebdd62c3f16ed6a579b3b49f0049a8cfe13d16ceb20a223","purpose":"canonical integrated-course manifest"},
+    {"path_or_route":"course content tree excluding integration manifest, integration handoff and .git","digest":"sha256:9b12e29fd98d20782129cd616b2bbfea67ff57a7a4a681b0c3890c702920cb18","purpose":"frozen integrated course content"},
     {"path_or_route":"busy-work/","digest":"sha256:f4b5bd8c4c0f5d2027237172ebc74c77f23327bae236f2d2affababcd7db1740","purpose":"twenty course-specific interactive practice routes"}
   ],
   "coverage": {
@@ -76,7 +76,7 @@
   "gate": {
     "environment": "local",
     "phase": "pre-release",
-    "subject_digest": "sha256:f22c4342875ee4e43930c482d1bcdd533ad8e1fb7cf629ad08b1f1b9baa7d080",
+    "subject_digest": "sha256:2ccc4e06dfcfe8fd5ebdd62c3f16ed6a579b3b49f0049a8cfe13d16ceb20a223",
     "reviewer_skill": "qa-course-experience",
     "reviewer_task": "TASK 30 — independent integrated-course QA rerun",
     "independent": true,

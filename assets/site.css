@@ -37,6 +37,9 @@ button, input, textarea { font: inherit; }
 .visual-page h1 { margin-bottom: 8px; }
 .visual-frame { margin: 28px 0; padding: clamp(12px, 3vw, 28px); border: 1px solid var(--line); border-radius: 20px; background: white; box-shadow: var(--shadow); }
 .visual-frame img { display: block; width: 100%; height: auto; }
+.visual-description { margin: 0 0 28px; padding: 16px 18px; border: 1px solid var(--line); border-radius: 14px; background: #f7faf8; }
+.visual-description summary { cursor: pointer; font-weight: 850; }
+.visual-description p { margin: 12px 0 0; }
 .visual-back { font-weight: 850; }
 .hero { color: white; background: var(--forest); }
 .hero-inner { width: min(1180px, calc(100% - 40px)); min-height: 610px; margin: auto; padding: 72px 0; display: grid; grid-template-columns: 1.05fr .95fr; gap: 64px; align-items: center; }
