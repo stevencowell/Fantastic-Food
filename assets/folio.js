@@ -53,17 +53,21 @@
     const imported = [];
     model.stages.forEach(stage => {
       if (state.stages[stage.id].response.trim()) return;
-      const source = stage.importKeys
+      const sources = stage.importKeys
         .map(key => [key, window.ffFoundationStore?.get(key) ?? localGet(key)])
-        .find(([, value]) => String(value || '').trim());
-      if (!source) return;
-      state.stages[stage.id].response = String(source[1]).trim();
-      state.stages[stage.id].importedFrom = [source[0]];
-      imported.push({ stageId: stage.id, sourceKey: source[0] });
+        .filter(([, value]) => String(value || '').trim());
+      if (!sources.length) return;
+      const seen = new Set();
+      const combined = sources
+        .map(([, value]) => String(value).trim())
+        .filter(value => !seen.has(value) && seen.add(value));
+      state.stages[stage.id].response = combined.join('\n\n');
+      state.stages[stage.id].importedFrom = sources.map(([key]) => key);
+      imported.push({ stageId: stage.id, sourceKeys: sources.map(([key]) => key) });
     });
     if (imported.length) {
       state.migration = {
-        from: 'fantasticfood-foundation guided responses',
+        from: 'fantasticfood-foundation guided responses and activity evidence',
         migratedAt: new Date().toISOString(),
         imported
       };
@@ -161,7 +165,10 @@
     return { started, evidenceAdded, ready };
   };
 
-  const stageMarkup = stage => `
+  const stageMarkup = stage => {
+    const visualKey = stage.visual.match(/(m\d-s\d)\.svg$/)?.[1] || '';
+    const visualPage = `visual.html?section=${encodeURIComponent(visualKey)}`;
+    return `
     <article class="folio-stage" id="folio-${esc(stage.id)}" data-stage="${esc(stage.id)}">
       <header class="folio-stage-head">
         <div class="folio-stage-number" aria-hidden="true">${stage.number}</div>
@@ -181,10 +188,10 @@
           <figcaption>${esc(stage.visualCaption)}</figcaption>
           <details class="folio-detailed-visual">
             <summary>View the detailed course visual</summary>
-            <a href="${esc(stage.visual)}" target="_blank" rel="noopener" aria-label="Open ${esc(stage.title)} visual at full size">
+            <a href="${esc(visualPage)}" target="_blank" rel="noopener" aria-label="Open ${esc(stage.title)} visual at full size">
               <img src="${esc(stage.visual)}" alt="${esc(stage.visualAlt)}" loading="lazy" decoding="async">
             </a>
-            <p><a href="${esc(stage.visual)}" target="_blank" rel="noopener">Open detailed visual in a new tab</a></p>
+            <p><a href="${esc(visualPage)}" target="_blank" rel="noopener">Open detailed visual in a new tab</a></p>
           </details>
         </figure>
 
@@ -234,6 +241,7 @@
         </footer>
       </div>
     </article>`;
+  };
 
   stageHost.innerHTML = model.stages.map(stageMarkup).join('');
   studentInput.value = state.studentReference;

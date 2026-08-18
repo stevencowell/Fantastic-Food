@@ -1,0 +1,108 @@
+{
+  "schema_version": "website-builder-network/v1",
+  "build_id": "fantastic-food-2026-08-18",
+  "task_family": "TASK 30 — Fantastic Food full build",
+  "course": {
+    "title": "Fantastic Food",
+    "cohort": "Year 7 Stage 4 Technology Mandatory — Food Technologies",
+    "scope": "Complete ten-week student course, evidence systems, assessment and teacher program"
+  },
+  "publication_boundary": "Local release candidate; public GitHub repository and Main Page changes not yet made",
+  "publication_authority": "Authorised",
+  "source_contract": {
+    "artifact_id": "fantastic-food-source-contract",
+    "version": "0.2-draft",
+    "digest": "sha256:c228cb837ab0f5e880b31d930e44d6a7120ecec5e775792375e33317200c4e13"
+  },
+  "artifact": {
+    "id": "fantastic-food-integration-manifest",
+    "type": "integration-manifest",
+    "version": "2.0.0-release-candidate",
+    "digest": "sha256:9021285b0c591da9706c644d540dd3e3ffc7b085ec4500a4d3b6b26153bf3d02",
+    "owner_skill": "integrate-course-site",
+    "owner_task": "TASK 30 — Fantastic Food full build",
+    "owned_paths": [
+      "integration-manifest.v1.json",
+      "integration-handoff.v1.json",
+      "shared site navigation and route wiring",
+      "assets/module.js",
+      "assets/folio-data.js",
+      "assets/folio.js",
+      "assets/site.css",
+      "assets/site.js",
+      "busy-work/",
+      "visual.html",
+      "assets/visual.js"
+    ],
+    "prohibited_edits": [
+      "authoritative source documents",
+      "student names, submissions, grades or email addresses",
+      "accepted diagram artwork",
+      "unconfirmed practical or administrative facts"
+    ],
+    "operational_status": "Complete",
+    "gate_verdict": "PENDING",
+    "release_state": "Local-only"
+  },
+  "dependencies": [
+    {"artifact_id":"fantastic-food-source-contract","version":"0.2-draft","digest":"sha256:c228cb837ab0f5e880b31d930e44d6a7120ecec5e775792375e33317200c4e13"},
+    {"artifact_id":"fantastic-food-theory-question-manifest","version":"1.1.0-draft","digest":"sha256:8c4d95ff91e5cfb8a6b217d4cdf790a19f2b9c947984ea3b54c29cca287de8b6"},
+    {"artifact_id":"fantastic-food-diagram-production-manifest","version":"2.2.0","digest":"sha256:fe366900ea5a44a6bf07c146b4d526309aa5185a7ce90a3d4b2d35ce1d80d501"},
+    {"artifact_id":"fantastic-food-assessment-manifest","version":"2.0.0","digest":"sha256:3822f4588673183307e6687dfb06e18b0d23f07c16d694d7d3e5927bdae18d23"},
+    {"artifact_id":"fantastic-food-folio-manifest","version":"1.1.0","digest":"sha256:671f3b03cc238de23fa5df0f9b5cacd89aae2b4cdc9bfedf7be10912c3dcabf1"},
+    {"artifact_id":"fantastic-food-youtube-manifest","version":"1.0","digest":"sha256:554ac4a3820fe407936ba7d0df22f21c143e269860e15ec455b2dc87918a95dd"},
+    {"artifact_id":"fantastic-food-teaching-program-manifest","version":"1.0","digest":"sha256:1d591055225a43da9b9b40acbe3ad446402d73fa554097f6fabaa8b09e54e3f3"}
+  ],
+  "outputs": [
+    {"path_or_route":"integration-manifest.v1.json","digest":"sha256:9021285b0c591da9706c644d540dd3e3ffc7b085ec4500a4d3b6b26153bf3d02","purpose":"canonical integrated-course manifest"},
+    {"path_or_route":"course content tree excluding integration manifest, integration handoff and .git","digest":"sha256:5f6305bba4ab028fff41d339a41f09fb935eb93ea537e77d7d58445717f2f9cd","purpose":"frozen integrated course content"},
+    {"path_or_route":"busy-work/","digest":"sha256:2af21d92d161924456eb9cd416f8e4b7c8334dde07d13d7da6fa664449f17f1f","purpose":"twenty course-specific interactive practice routes"}
+  ],
+  "coverage": {
+    "modules": 5,
+    "sections": 15,
+    "mcqs": 150,
+    "written_responses": 15,
+    "folio_stages": 8,
+    "evidence_activities": 10,
+    "busy_work_activities": 20,
+    "videos": 15,
+    "formal_notifications": 3,
+    "teacher_program_periods": 30,
+    "accepted_diagrams": 15,
+    "current_outcome_maps": 15,
+    "privacy": "device-local evidence; personal student data excluded"
+  },
+  "gate": {
+    "environment": "local",
+    "phase": "pre-release",
+    "subject_digest": "sha256:9021285b0c591da9706c644d540dd3e3ffc7b085ec4500a4d3b6b26153bf3d02",
+    "reviewer_skill": "qa-course-experience",
+    "reviewer_task": "TASK 30 — independent integrated-course QA rerun",
+    "independent": true,
+    "tests": [
+      "content-tree and dependency identity",
+      "complete route and navigation sweep",
+      "desktop and exact 390 CSS-pixel rendering",
+      "written-help target and answer-leakage boundary",
+      "current outcome visibility",
+      "activity to folio evidence preservation",
+      "Busy Work completeness and state invalidation",
+      "responsive Open larger visuals",
+      "local persistence, backup and print outputs",
+      "console, overflow, keyboard and privacy checks"
+    ],
+    "evidence": [
+      "integration-manifest.v1.json",
+      "seven rendered print-QA PDFs and contact sheets under work/release/fantastic-food-print-qa-v2",
+      "local preview http://127.0.0.1:44602/"
+    ],
+    "decision": "PENDING",
+    "findings": ["Producer integration checks pass; independent experience QA and student acceptance have not yet decided this exact candidate.","Ten folio-connected evidence activities and twenty Busy Work activities are intentionally separate student destinations.","Responsive Open larger pages wrap exact accepted SVG files without changing their audited hashes."],
+    "rework_owner": "TASK 30 — Fantastic Food full build",
+    "smallest_action": "Run independent QA and local student acceptance against this exact manifest and candidate tree",
+    "invalidates": ["public release","Main Page integration","final student acceptance"]
+  },
+  "exceptions": [],
+  "timestamp": "2026-08-18T23:30:00+10:00"
+}

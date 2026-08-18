@@ -5,6 +5,7 @@
     ['course', 'Course', `${prefix}index.html`],
     ['modules', 'Modules', `${prefix}index.html#modules`],
     ['activities', 'Activities', `${prefix}activities/index.html`],
+    ['busy-work', 'Busy Work', `${prefix}busy-work/index.html`],
     ['videos', 'Video learning', `${prefix}videos.html`],
     ['folio', 'My folio', `${prefix}folio.html`],
     ['assessment', 'Assessment', `${prefix}assessment.html`],
@@ -12,7 +13,7 @@
   ];
   const nav = document.querySelector('[data-site-nav]');
   if (nav) {
-    nav.innerHTML = `<div class="nav-inner"><a class="brand" href="${prefix}index.html"><span class="brand-mark">FF</span><span>Fantastic Food</span></a><div class="nav-links" aria-label="Course destinations">${links.map(([id,label,href]) => `<a href="${href}"${id===current?' aria-current="page"':''}>${label}</a>`).join('')}<a class="main-menu" href="https://stevencowell.github.io/Main-Page/">Main Menu</a></div></div>`;
+    nav.innerHTML = `<div class="nav-inner"><a class="brand" href="${prefix}index.html"><span class="brand-mark">FF</span><span>Fantastic Food</span></a><div class="nav-links" aria-label="Course destinations">${links.map(([id,label,href]) => `<a href="${href}"${id===current?' aria-current="page"':''}>${label}</a>`).join('')}<a class="main-menu" href="https://stevencowell.github.io/Main-Page/">Main Menu</a></div><span class="nav-scroll-cue" aria-hidden="true">More&nbsp;→</span></div>`;
   }
 
   const storage = (() => {

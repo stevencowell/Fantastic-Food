@@ -45,6 +45,10 @@ body[data-module] [data-module-content] { display: grid; gap: var(--module-gap);
 body[data-module] .learning-cycle { margin: 0; border-radius: 18px; }
 body[data-module] .cycle-head { max-width: 850px; margin-bottom: 18px; }
 body[data-module] .cycle-head .eyebrow { color: var(--module-accent); }
+body[data-module] .learning-alignment { display: grid; grid-template-columns: minmax(0,1fr) minmax(220px,.55fr); gap: 18px; margin: 0 0 26px; padding: 18px 20px; border: 1px solid #c7d7ce; border-radius: 14px; background: #edf4ef; }
+body[data-module] .learning-alignment p { margin: 5px 0 0; }
+body[data-module] .outcome-chips { display: flex; flex-wrap: wrap; gap: 7px; margin: 8px 0 0; padding: 0; list-style: none; }
+body[data-module] .outcome-chips li { padding: 6px 9px; border-radius: 999px; color: #fff; background: var(--module-action); font-size: .82rem; font-weight: 900; letter-spacing: .02em; }
 body[data-module] .theory-copy { max-width: 80ch; }
 body[data-module] .concept-visual { background: var(--module-card-soft); border-color: var(--module-line); }
 body[data-module] .video-slot { color: var(--ink); background: #f2f5f3; border: 1px solid var(--module-line); }
@@ -71,6 +75,7 @@ body[data-module] .module-sequence { grid-column: 1 / -1; display: flex; justify
   body[data-module] .module-overview,
   body[data-module] .student-evidence,
   body[data-module] .module-completion { grid-template-columns: minmax(0,1fr); }
+  body[data-module] .learning-alignment { grid-template-columns: 1fr; padding: 16px; }
   body[data-module] .module-overview,
   body[data-module] .student-evidence,
   body[data-module] .learning-cycle,

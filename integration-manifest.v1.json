@@ -1,0 +1,72 @@
+{
+  "schema_version": "fantastic-food-integration-manifest/v1",
+  "build_id": "fantastic-food-2026-08-18",
+  "course": {
+    "title": "Fantastic Food",
+    "cohort": "Year 7 Stage 4 Technology Mandatory — Food Technologies",
+    "duration": "10 weeks",
+    "candidate_root": "outputs/fantastic-food-foundation-v7-assessment"
+  },
+  "artifact": {
+    "id": "fantastic-food-integrated-course",
+    "version": "2.0.0-release-candidate",
+    "owner_skill": "integrate-course-site",
+    "operational_status": "Complete",
+    "independent_gate": "PENDING",
+    "release_state": "Local-only"
+  },
+  "content_tree": {
+    "digest_method": "sorted forward-slash relative path, tab, lowercase file SHA-256, LF after each row; integration manifest, integration handoff and .git excluded",
+    "digest": "sha256:5f6305bba4ab028fff41d339a41f09fb935eb93ea537e77d7d58445717f2f9cd",
+    "files": 110
+  },
+  "accepted_inputs": [
+    {"id":"fantastic-food-source-contract","version":"0.2-draft","digest":"sha256:c228cb837ab0f5e880b31d930e44d6a7120ecec5e775792375e33317200c4e13","gate":"PASS"},
+    {"id":"fantastic-food-theory-question-manifest","version":"1.1.0-draft","digest":"sha256:8c4d95ff91e5cfb8a6b217d4cdf790a19f2b9c947984ea3b54c29cca287de8b6","gate":"PASS"},
+    {"id":"fantastic-food-diagram-production-manifest","version":"2.2.0","digest":"sha256:fe366900ea5a44a6bf07c146b4d526309aa5185a7ce90a3d4b2d35ce1d80d501","gate":"PASS"},
+    {"id":"fantastic-food-assessment-manifest","version":"2.0.0","digest":"sha256:3822f4588673183307e6687dfb06e18b0d23f07c16d694d7d3e5927bdae18d23","gate":"PASS"},
+    {"id":"fantastic-food-folio-manifest","version":"1.1.0","digest":"sha256:671f3b03cc238de23fa5df0f9b5cacd89aae2b4cdc9bfedf7be10912c3dcabf1","gate":"PASS with integration-owned evidence wiring updated here"},
+    {"id":"fantastic-food-youtube-manifest","version":"1.0","digest":"sha256:554ac4a3820fe407936ba7d0df22f21c143e269860e15ec455b2dc87918a95dd","gate":"PASS"},
+    {"id":"fantastic-food-teaching-program-manifest","version":"1.0","digest":"sha256:1d591055225a43da9b9b40acbe3ad446402d73fa554097f6fabaa8b09e54e3f3","gate":"PASS"}
+  ],
+  "integrated_systems": {
+    "modules": {"count":5,"sections":15,"knowledge_checks":15,"mcqs":150,"written_responses":15,"current_outcomes_visible":true,"precise_help_targets":15,"model_answers_rendered":0},
+    "activities": {"evidence_routes":10,"folio_import":"all non-empty evidence fields are combined without deleting source keys"},
+    "busy_work": {"routes":20,"tree_digest":"sha256:2af21d92d161924456eb9cd416f8e4b7c8334dde07d13d7da6fa664449f17f1f","files":23,"mechanics":12,"completion_invalidation":true},
+    "visuals": {"audited_svg_assets":15,"responsive_open_larger_route":"visual.html?section=<section-id>","artwork_hashes_preserved":true},
+    "videos": {"section_cards":15,"privacy_enhanced_embeds":true,"fallback_links":15},
+    "folio": {"stages":8,"device_local_autosave":true,"backup_restore":true,"print_pages":10},
+    "assessment": {"schedule_routes":1,"formal_notifications":3,"issue_timing":"Start of term"},
+    "teacher_program": {"periods":30,"weeks":10,"editable_docx":true,"print_pdf":true,"delivery_ledger":true}
+  },
+  "navigation": {
+    "shared_destinations": ["Course","Modules","Activities","Busy Work","Video learning","My folio","Assessment","Resources","Main Menu"],
+    "mobile_pattern": "contained horizontal destination scroller with persistent More cue",
+    "main_page_target": "https://stevencowell.github.io/Main-Page/"
+  },
+  "storage": {
+    "module_and_activity_prefix": "fantasticfood-foundation:",
+    "busy_work_prefix": "fantastic-food:busy-work:v2:",
+    "folio_text_key": "fantasticfood:folio:learning-evidence:v1",
+    "privacy_boundary": "device-local only; no student names, emails, submissions, grades or identifiable photographs"
+  },
+  "print_evidence": [
+    {"name":"module-01-evidence.pdf","pages":11,"digest":"sha256:fe0cdd3cdbbef32e7a6f8e5ae0758dc7b4634b86ad9da3a3f31acd0e65c3b98f"},
+    {"name":"activity-02-evidence.pdf","pages":1,"digest":"sha256:d4b4804a16602d9cc278f9233aab491b13116136bea0c61378eb004204f3384d"},
+    {"name":"busy-work-10-evidence.pdf","pages":2,"digest":"sha256:cc671592ddad8f557eb66c4a1066583b5413d376b715c177e9fa7366d4aa8e8a"},
+    {"name":"fantastic-food-folio.pdf","pages":10,"digest":"sha256:7be81ef873d34e36c76954f769ff1f5fecfab2f50720906393dfa43b9e56c726"},
+    {"name":"formal-notification-task-01.pdf","pages":1,"digest":"sha256:4b71ee6ef84ad211b3708c1cfe0ad337024f1069db93e3630197cdcea72d1629"},
+    {"name":"formal-notification-task-02.pdf","pages":1,"digest":"sha256:3f871d80a7662cace598338e0fff811af055c85cbc1ad67c583ee55fefbf7ed7"},
+    {"name":"formal-notification-task-03.pdf","pages":1,"digest":"sha256:8ca17c23a7100f273b2fab2d8b6b74b7e9900cd2f3adfda5980a06bcc6020b45"}
+  ],
+  "publication": {
+    "authorised_by_user": true,
+    "target_repository": "stevencowell/Fantastic-Food",
+    "target_url": "https://stevencowell.github.io/Fantastic-Food/",
+    "state": "not yet published; independent QA and action-time confirmation required"
+  },
+  "exceptions": [
+    "Student-facing evidence activities and Busy Work are separate: ten folio-connected activities plus twenty additional interactive practice routes.",
+    "Raw audited SVGs retain exact accepted hashes; the responsive Open larger page supplies mobile containment without modifying the artwork."
+  ]
+}

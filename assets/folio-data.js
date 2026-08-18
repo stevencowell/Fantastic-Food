@@ -21,7 +21,7 @@ window.FANTASTIC_FOOD_FOLIO = {
       visualCaption: 'Use the two pathways to check that your routine covers hazards, hygiene and asking for help.',
       moduleLink: 'modules/module-01.html#m1-s3',
       sourceIds: ['PROG-2024', 'BOOK-2023-STUDENT'],
-      importKeys: ['fantasticfood-foundation:response:m1-s1', 'fantasticfood-foundation:response:m1-s2', 'fantasticfood-foundation:response:m1-s3'],
+      importKeys: ['fantasticfood-foundation:response:m1-s1', 'fantasticfood-foundation:response:m1-s2', 'fantasticfood-foundation:response:m1-s3', 'fantasticfood-foundation:activity:1:decision', 'fantasticfood-foundation:activity:1:reason', 'fantasticfood-foundation:activity:1:reflection'],
       photoHint: 'Optional: a non-identifying photo or sketch of a correctly prepared work area.'
     },
     {
@@ -41,7 +41,7 @@ window.FANTASTIC_FOOD_FOLIO = {
       visualCaption: 'Use this pathway to show where your measuring check occurs before ingredients are combined.',
       moduleLink: 'modules/module-02.html#m2-s2',
       sourceIds: ['PROG-2024', 'REC-SCONES', 'REC-TWISTS'],
-      importKeys: ['fantasticfood-foundation:response:m2-s1', 'fantasticfood-foundation:response:m2-s2'],
+      importKeys: ['fantasticfood-foundation:response:m2-s1', 'fantasticfood-foundation:response:m2-s2', 'fantasticfood-foundation:activity:2:decision', 'fantasticfood-foundation:activity:2:reason', 'fantasticfood-foundation:activity:2:reflection'],
       photoHint: 'Optional: a non-identifying photo of measured ingredients or an annotated recipe extract supplied by your teacher.'
     },
     {
@@ -61,7 +61,7 @@ window.FANTASTIC_FOOD_FOLIO = {
       visualCaption: 'Use the relationship map to select accurate connections; do not treat one food as the whole answer.',
       moduleLink: 'modules/module-02.html#m2-s3',
       sourceIds: ['PROG-2024', 'BOOK-2023-STUDENT'],
-      importKeys: ['fantasticfood-foundation:response:m2-s3', 'fantasticfood-foundation:response:m3-s2'],
+      importKeys: ['fantasticfood-foundation:response:m2-s3', 'fantasticfood-foundation:response:m3-s2', 'fantasticfood-foundation:activity:3:decision', 'fantasticfood-foundation:activity:3:reason', 'fantasticfood-foundation:activity:3:reflection', 'fantasticfood-foundation:activity:5:decision', 'fantasticfood-foundation:activity:5:reason', 'fantasticfood-foundation:activity:5:reflection', 'fantasticfood-foundation:activity:9:decision', 'fantasticfood-foundation:activity:9:reason', 'fantasticfood-foundation:activity:9:reflection'],
       photoHint: 'A photo is not required. If added, use only a teacher-approved food label or non-identifying food image.'
     },
     {
@@ -81,7 +81,7 @@ window.FANTASTIC_FOOD_FOLIO = {
       visualCaption: 'Use the workflow map to include dependencies, checks and clean-up in your own plan.',
       moduleLink: 'modules/module-03.html#m3-s1',
       sourceIds: ['PROG-2024', 'BOOK-2023-STUDENT'],
-      importKeys: ['fantasticfood-foundation:response:m3-s1'],
+      importKeys: ['fantasticfood-foundation:response:m3-s1', 'fantasticfood-foundation:activity:4:decision', 'fantasticfood-foundation:activity:4:reason', 'fantasticfood-foundation:activity:4:reflection', 'fantasticfood-foundation:activity:6:decision', 'fantasticfood-foundation:activity:6:reason', 'fantasticfood-foundation:activity:6:reflection'],
       photoHint: 'Useful evidence: a non-identifying photo of your workplan, setup or a teacher-approved practical checkpoint.'
     },
     {
@@ -101,7 +101,7 @@ window.FANTASTIC_FOOD_FOLIO = {
       visualCaption: 'Use the pathway as evidence for criteria; it is not a formal assessment task sheet.',
       moduleLink: 'modules/module-04.html#m4-s1',
       sourceIds: ['PROG-2024', 'BOOK-2023-STUDENT'],
-      importKeys: ['fantasticfood-foundation:response:m4-s1', 'fantasticfood-foundation:response:m4-s3'],
+      importKeys: ['fantasticfood-foundation:response:m4-s1', 'fantasticfood-foundation:response:m4-s3', 'fantasticfood-foundation:activity:7:decision', 'fantasticfood-foundation:activity:7:reason', 'fantasticfood-foundation:activity:7:reflection', 'fantasticfood-foundation:activity:8:decision', 'fantasticfood-foundation:activity:8:reason', 'fantasticfood-foundation:activity:8:reflection'],
       photoHint: 'Optional: a non-identifying sketch, layout or food-solution concept. Do not include a person or student name.'
     },
     {
@@ -121,7 +121,7 @@ window.FANTASTIC_FOOD_FOLIO = {
       visualCaption: 'Use the checking pathway to explain how the order and workflow connect.',
       moduleLink: 'modules/module-04.html#m4-s2',
       sourceIds: ['PROG-2024', 'BOOK-2023-STUDENT'],
-      importKeys: ['fantasticfood-foundation:response:m4-s2'],
+      importKeys: ['fantasticfood-foundation:response:m4-s2', 'fantasticfood-foundation:activity:4:decision', 'fantasticfood-foundation:activity:4:reason', 'fantasticfood-foundation:activity:6:reflection'],
       photoHint: 'Optional: a teacher-approved, non-identifying image of an order check or planning table.'
     },
     {
@@ -141,7 +141,7 @@ window.FANTASTIC_FOOD_FOLIO = {
       visualCaption: 'Use this workflow to compare planned organisation with the evidence you observed.',
       moduleLink: 'modules/module-05.html#m5-s2',
       sourceIds: ['PROG-2024', 'REC-CARBONARA'],
-      importKeys: ['fantasticfood-foundation:response:m5-s2'],
+      importKeys: ['fantasticfood-foundation:response:m5-s2', 'fantasticfood-foundation:activity:10:decision', 'fantasticfood-foundation:activity:10:reason'],
       photoHint: 'Recommended: a non-identifying photo of the food result, workflow evidence or clean workstation. No faces or names.'
     },
     {
@@ -161,7 +161,7 @@ window.FANTASTIC_FOOD_FOLIO = {
       visualCaption: 'Use the evaluation pathway to connect audience, content, navigation evidence and improvement.',
       moduleLink: 'modules/module-05.html#m5-s3',
       sourceIds: ['PROG-2024', 'BOOK-2023-STUDENT'],
-      importKeys: ['fantasticfood-foundation:response:m5-s3'],
+      importKeys: ['fantasticfood-foundation:response:m5-s3', 'fantasticfood-foundation:activity:10:reflection'],
       photoHint: 'Useful evidence: a screenshot of your own page plan or communication tool with all personal details removed.'
     }
   ]
