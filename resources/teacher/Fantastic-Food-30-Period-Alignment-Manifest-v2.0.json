@@ -1295,13 +1295,13 @@
       "path": "resources/teacher/Fantastic-Food-30-Period-Teaching-Program-v2.0-Network-Benchmark.docx",
       "purpose": "editable-program",
       "version": "v2.0",
-      "sha256": "DC3FBB895FE255680B3ABAE5E8D028A1D41591F54B47F08C5A790EA0EA10250B"
+      "sha256": "A87CE0C810D35B4B6D9021FDA703747096145AE6B0E03695711F36D657699C7D"
     },
     {
       "path": "resources/teacher/Fantastic-Food-30-Period-Teaching-Program-v2.0-Network-Benchmark.pdf",
       "purpose": "rendered-program",
       "version": "v2.0",
-      "sha256": "E2B64037CAC58C26F08FF4DA21B10E3804C0444665A1B52B05DCA5E8DED27EF5"
+      "sha256": "6EEEAD5F11F634CB62A32C717D1F579EC2A102FBD71EAA70DF593483901C7580"
     },
     {
       "path": "resources/teacher/Fantastic-Food-30-Period-Alignment-Manifest-v2.0.json",
